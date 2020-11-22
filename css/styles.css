@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif; }
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 10%;
+  color: white; }
+  .container h1 {
+    opacity: 0.7;
+    cursor: default;
+    transition: 0.7s; }
+    .container h1:hover {
+      opacity: 1; }
+  .container .main-navigation {
+    width: 10%;
+    display: flex;
+    justify-content: space-between; }
+    .container .main-navigation li a {
+      opacity: 0.7;
+      transition: 0.7s; }
+      .container .main-navigation li a:hover {
+        opacity: 1; }
+
+.flex-container {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  overflow: hidden;
+  flex-direction: row-reverse; }
+
+.flex-title {
+  color: #f1f1f1;
+  position: relative;
+  font-size: 5vw;
+  margin: auto;
+  text-align: center;
+  top: 40%;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease; }
+  @media screen and (max-width: 768px) {
+    .flex-title {
+      transform: rotate(0deg) !important; } }
+
+.flex-about {
+  color: #f1f1f1;
+  position: relative;
+  width: 60%;
+  font-size: 1.2vw;
+  padding: 5%;
+  top: 40%;
+  border-radius: 10px;
+  line-height: 1.3;
+  margin: auto;
+  text-align: center;
+  transform: rotate(0deg);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease; }
+  @media screen and (max-width: 768px) {
+    .flex-about {
+      padding: 0%;
+      border: 0px solid #f1f1f1; } }
+
+.flex-slide {
+  height: 100vh;
+  position: relative;
+  width: 2.5%;
+  cursor: unset;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  transition: width 1s !important;
+  box-sizing: border-box;
+  overflow: hidden; }
+
+.story1 {
+  position: absolute;
+  left: 0;
+  background: url("../img/story1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed; }
+
+.story2 {
+  background: url("../img/story2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border-left: 1px solid rgba(238, 238, 238, 0.5); }
+
+.story3 {
+  background: url("../img/story3.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border-left: 1px solid rgba(238, 238, 238, 0.5); }
+
+.story4 {
+  background: url("../img/story2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border-left: 1px solid rgba(238, 238, 238, 0.5); }
+
+.story5 {
+  background: url("../img/story3.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border-left: 1px solid rgba(238, 238, 238, 0.5); }
+
+.story6 {
+  background: url("../img/story2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border-left: 1px solid rgba(238, 238, 238, 0.5); }
+
+.story7 {
+  background: url("../img/story3.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  border-left: 1px solid rgba(238, 238, 238, 0.5); }
+
+.active {
+  width: 85%; }
+
+.black-transparency {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #121212;
+  opacity: 1;
+  transition: 1s;
+  z-index: 1; }
+
+.active-bl {
+  opacity: 0; }
