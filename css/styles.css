@@ -40,7 +40,6 @@ body {
   flex-direction: row-reverse; }
 
 .flex-title {
-  opacity: 0;
   color: #f1f1f1;
   position: relative;
   font-size: 5vw;
@@ -55,6 +54,8 @@ body {
   @media screen and (max-width: 768px) {
     .flex-title {
       transform: rotate(0deg) !important; } }
+  .flex-title .header {
+    opacity: 0; }
 
 .flex-about {
   color: #f1f1f1;
@@ -151,5 +152,8 @@ body {
 .active-bl {
   opacity: 0; }
 
-.active-txt {
+.flex-slide .active-txt {
+  opacity: 1; }
+
+.flex-slide .flex-title .header .active-txt {
   opacity: 1; }
