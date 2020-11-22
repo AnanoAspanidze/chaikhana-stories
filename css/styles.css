@@ -5,6 +5,8 @@ body {
   font-family: 'Raleway', sans-serif; }
 
 .container {
+  opacity: 0;
+  transition: 0.5s;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -30,7 +32,7 @@ body {
   position: absolute;
   height: 100vh;
   width: 100%;
-  background-color: black;
+  background-color: #121212;
   display: -webkit-flex;
   /* Safari */
   display: flex;
@@ -38,6 +40,7 @@ body {
   flex-direction: row-reverse; }
 
 .flex-title {
+  opacity: 0;
   color: #f1f1f1;
   position: relative;
   font-size: 5vw;
@@ -60,12 +63,13 @@ body {
   font-size: 1.2vw;
   padding: 5%;
   top: 40%;
+  opacity: 0;
   border-radius: 10px;
   line-height: 1.3;
   margin: auto;
   text-align: center;
   transform: rotate(0deg);
-  -webkit-transition: all 500ms ease;
+  -webkit-transition: all 1000ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
@@ -80,14 +84,14 @@ body {
   position: relative;
   width: 2.5%;
   cursor: unset;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-  transition: width 1s !important;
   box-sizing: border-box;
-  overflow: hidden; }
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+  overflow: hidden;
+  border-right: 1px solid rgba(238, 238, 238, 0.5); }
 
 .story1 {
   position: absolute;
@@ -101,55 +105,51 @@ body {
   background: url("../img/story2.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  border-left: 1px solid rgba(238, 238, 238, 0.5); }
+  background-attachment: fixed; }
 
 .story3 {
   background: url("../img/story3.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  border-left: 1px solid rgba(238, 238, 238, 0.5); }
+  background-attachment: fixed; }
 
 .story4 {
   background: url("../img/story2.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  border-left: 1px solid rgba(238, 238, 238, 0.5); }
+  background-attachment: fixed; }
 
 .story5 {
   background: url("../img/story3.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  border-left: 1px solid rgba(238, 238, 238, 0.5); }
+  background-attachment: fixed; }
 
 .story6 {
   background: url("../img/story2.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  border-left: 1px solid rgba(238, 238, 238, 0.5); }
+  background-attachment: fixed; }
 
 .story7 {
   background: url("../img/story3.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  border-left: 1px solid rgba(238, 238, 238, 0.5); }
+  background-attachment: fixed; }
+
+.black-transparency {
+  opacity: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #121212;
+  transition: 1s; }
 
 .active {
   width: 85%; }
 
-.black-transparency {
-  position: absolute;
-  width: 100%;
-  height: 100vh;
-  background-color: #121212;
-  opacity: 1;
-  transition: 1s;
-  z-index: 1; }
-
 .active-bl {
   opacity: 0; }
+
+.active-txt {
+  opacity: 1; }
