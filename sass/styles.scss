@@ -58,16 +58,16 @@ body {
 	margin: auto;
 	text-align: center;
 	top: 40%;
-	-webkit-transition: all 500ms ease;
-	-moz-transition: all 500ms ease;
-	-ms-transition: all 500ms ease;
-	-o-transition: all 500ms ease;
-	transition: all 500ms ease;
 	@media screen and (max-width: 768px) {
 		transform: rotate(0deg) !important;
 	}
 	.header{
 		opacity: 0;
+		-webkit-transition: all 700ms ease;
+	-moz-transition: all 700ms ease;
+	-ms-transition: all 700ms ease;
+	-o-transition: all 700ms ease;
+	transition: all 700ms ease;
 	}
 }
 .flex-about {
@@ -83,11 +83,11 @@ body {
 	margin: auto;
 	text-align: center;
 	transform: rotate(0deg);
-	-webkit-transition: all 1000ms ease;
-	-moz-transition: all 500ms ease;
-	-ms-transition: all 500ms ease;
-	-o-transition: all 500ms ease;
-	transition: all 500ms ease;
+	-webkit-transition: all 700ms ease;
+	-moz-transition: all 70ms ease;
+	-ms-transition: all 70ms ease;
+	-o-transition: all 70ms ease;
+	transition: all 70ms ease;
 	@media screen and (max-width: 768px) {
 		padding: 0%;
 		border: 0px solid #f1f1f1;
@@ -101,11 +101,11 @@ body {
 	width: 2.5%;
 	cursor: unset;
 	box-sizing: border-box;
-	-webkit-transition: all 1000ms ease;
-	-moz-transition: all 1000ms ease;
-	-ms-transition: all 1000ms ease;
-	-o-transition: all 1000ms ease;
-    transition: all 1000ms ease;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+    transition: all 500ms ease;
 	overflow:hidden;
 	border-right: 1px solid rgba($color: #eeeeee, $alpha: 0.5);
 }
