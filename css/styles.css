@@ -10,7 +10,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5% 10%;
+  position: relative;
+  padding: 2% 10%;
+  height: 10vh;
   color: white; }
   .container h1 {
     opacity: 0.7;
@@ -21,12 +23,40 @@ body {
   .container .main-navigation {
     width: 10%;
     display: flex;
-    justify-content: space-between; }
-    .container .main-navigation li a {
+    justify-content: space-between;
+    transition: 0.5s;
+    height: 5px; }
+    .container .main-navigation li {
       opacity: 0.7;
-      transition: 0.7s; }
-      .container .main-navigation li a:hover {
+      transition: 0.7s;
+      cursor: default;
+      margin-bottom: -5px; }
+      .container .main-navigation li a {
+        opacity: 0.7;
+        transition: 0.7s;
+        cursor: pointer; }
+        .container .main-navigation li a:hover {
+          opacity: 1; }
+      .container .main-navigation li:hover {
         opacity: 1; }
+    .container .main-navigation .lang-switch {
+      height: 15px;
+      transition: 0.5s;
+      overflow-y: hidden;
+      padding: 0 5px 0 5px;
+      position: relative; }
+      .container .main-navigation .lang-switch::-webkit-scrollbar {
+        width: 0 !important; }
+      .container .main-navigation .lang-switch:hover {
+        height: 70px; }
+    .container .main-navigation:hover {
+      opacity: 1; }
+    .container .main-navigation .arrow {
+      width: 10px;
+      height: 10px;
+      position: absolute;
+      right: 9%;
+      top: 50%; }
 
 .flex-container {
   position: absolute;
@@ -46,9 +76,6 @@ body {
   margin: auto;
   text-align: center;
   top: 40%; }
-  @media screen and (max-width: 768px) {
-    .flex-title {
-      transform: rotate(0deg) !important; } }
   .flex-title .header {
     opacity: 0;
     -webkit-transition: all 700ms ease;
