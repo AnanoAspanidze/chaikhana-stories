@@ -1,73 +1,73 @@
-
+	$(".story1").hover(function () {
+		$(this).addClass("active");
+		$(".story2").removeClass("active");
+		$(".story3").removeClass("active");
+		$(".story4").removeClass("active");
+		$(".story5").removeClass("active");
+		$(".story6").removeClass("active");
+		$(".story7").removeClass("active");
+	});
 	$(".story2").hover(function () {
-		$(this).toggleClass("active");
-		$(".story1").toggleClass("active");
-		$(".story2 .black-transparency").toggleClass("active-bl");
-		$(".story1 .black-transparency").toggleClass("active-bl");
-		$(".story1 .flex-title .header").toggleClass("active-txt");
-		$(".story1 .flex-about").toggleClass("active-txt");
-		$(".story1 .container").toggleClass("active-txt");
-		$(".story2 .flex-title .header").toggleClass("active-txt");
-		$(".story2 .flex-about").toggleClass("active-txt");
-		$(".story2 .container").toggleClass("active-txt");
+		$(this).addClass("active");
+		$(".story1").removeClass("active");
+		$(".story3").removeClass("active");
+		$(".story4").removeClass("active");
+		$(".story5").removeClass("active");
+		$(".story6").removeClass("active");
+		$(".story7").removeClass("active");
 	});
 	$(".story3").hover(function () {
-		$(this).toggleClass("active");
-		$(".story1").toggleClass("active");
-		$(".story3 .black-transparency").toggleClass("active-bl");
-		$(".story1 .black-transparency").toggleClass("active-bl");
-		$(".story1 .flex-title .header").toggleClass("active-txt");
-		$(".story1 .flex-about").toggleClass("active-txt");
-		$(".story1 .container").toggleClass("active-txt");
-		$(".story3 .flex-title .header").toggleClass("active-txt");
-		$(".story3 .flex-about").toggleClass("active-txt");
-		$(".story3 .container").toggleClass("active-txt");
+		$(this).addClass("active");
+		$(".story1").removeClass("active");
+		$(".story2").removeClass("active");
+		$(".story4").removeClass("active");
+		$(".story5").removeClass("active");
+		$(".story6").removeClass("active");
+		$(".story7").removeClass("active");
 	  });
 	$(".story4").hover(function () {
-		$(this).toggleClass("active");
-		$(".story1").toggleClass("active");
-		$(".story4 .black-transparency").toggleClass("active-bl");
-		$(".story1 .black-transparency").toggleClass("active-bl");
-		$(".story1 .flex-title .header").toggleClass("active-txt");
-		$(".story1 .flex-about").toggleClass("active-txt");
-		$(".story1 .container").toggleClass("active-txt");
-		$(".story4 .flex-title .header").toggleClass("active-txt");
-		$(".story4 .flex-about").toggleClass("active-txt");
-		$(".story4 .container").toggleClass("active-txt");
-	  }); 
+		$(this).addClass("active");
+		$(".story1").removeClass("active");
+		$(".story2").removeClass("active");
+		$(".story3").removeClass("active");
+		$(".story5").removeClass("active");
+		$(".story6").removeClass("active");
+		$(".story7").removeClass("active");
+	  });
 	$(".story5").hover(function () {
-		$(this).toggleClass("active");
-		$(".story1").toggleClass("active");
-		$(".story5 .black-transparency").toggleClass("active-bl");
-		$(".story1 .black-transparency").toggleClass("active-bl");
-		$(".story1 .flex-title .header").toggleClass("active-txt");
-		$(".story1 .flex-about").toggleClass("active-txt");
-		$(".story1 .container").toggleClass("active-txt");
-		$(".story5 .flex-title .header").toggleClass("active-txt");
-		$(".story5 .flex-about").toggleClass("active-txt");
-		$(".story5 .container").toggleClass("active-txt");
+		$(this).addClass("active");
+		$(".story1").removeClass("active");
+		$(".story2").removeClass("active");
+		$(".story3").removeClass("active");
+		$(".story4").removeClass("active");
+		$(".story6").removeClass("active");
+		$(".story7").removeClass("active");
 	  });
 	$(".story6").hover(function () {
-		$(this).toggleClass("active");
-		$(".story1").toggleClass("active");
-		$(".story6 .black-transparency").toggleClass("active-bl");
-		$(".story1 .black-transparency").toggleClass("active-bl");
-		$(".story1 .flex-title .header").toggleClass("active-txt");
-		$(".story1 .flex-about").toggleClass("active-txt");
-		$(".story1 .container").toggleClass("active-txt");
-		$(".story6 .flex-title .header").toggleClass("active-txt");
-		$(".story6 .flex-about").toggleClass("active-txt");
-		$(".story6 .container").toggleClass("active-txt");
+		$(this).addClass("active");
+		$(".story1").removeClass("active");
+		$(".story2").removeClass("active");
+		$(".story3").removeClass("active");
+		$(".story4").removeClass("active");
+		$(".story5").removeClass("active");
+		$(".story7").removeClass("active");
 	  });
 	$(".story7").hover(function () {
-		$(this).toggleClass("active");
-		$(".story1").toggleClass("active");
-		$(".story7 .black-transparency").toggleClass("active-bl");
-		$(".story1 .black-transparency").toggleClass("active-bl");
-		$(".story1 .flex-title .header").toggleClass("active-txt");
-		$(".story1 .flex-about").toggleClass("active-txt");
-		$(".story1 .container").toggleClass("active-txt");
-		$(".story7 .flex-title .header").toggleClass("active-txt");
-		$(".story7 .flex-about").toggleClass("active-txt");
-		$(".story7 .container").toggleClass("active-txt");
-	  });    
+		$(this).addClass("active");
+		$(".story1").removeClass("active");
+		$(".story2").removeClass("active");
+		$(".story3").removeClass("active");
+		$(".story4").removeClass("active");
+		$(".story5").removeClass("active");
+		$(".story6").removeClass("active");
+	  });   
+
+	  //slider
+
+	  $('.slider1').slick({
+		dots: true,
+		infinite: true,
+		speed: 500,
+		fade: true,
+		cssEase: 'linear'
+	  });
