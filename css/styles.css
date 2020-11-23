@@ -272,7 +272,8 @@ main {
     width: 80vw;
     height: 100vh; }
     main .first-story article {
-      width: 45%; }
+      width: 45%;
+      position: relative; }
       main .first-story article .story-text {
         width: 100%;
         height: 45%;
@@ -289,7 +290,8 @@ main {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      height: 100vh; }
+      height: 89vh;
+      position: relative; }
       main .first-story .vertical button {
         margin: 0 8%;
         font-size: 0;
@@ -430,3 +432,14 @@ footer div {
 
 .slick-dots li.slick-active button:before {
   color: white; }
+
+.slider-info {
+  position: absolute;
+  bottom: -3%;
+  font-size: 14px; }
+
+.right-photo .slider-info {
+  position: absolute;
+  bottom: 7%;
+  font-size: 14px;
+  line-height: 14px; }

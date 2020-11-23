@@ -337,6 +337,7 @@ main{
 
 		article{
 			width: 45%;
+			position: relative;
 
 			.story-text{
 				width: 100%;
@@ -360,7 +361,8 @@ main{
 			display: flex;
 			flex-direction: column;
 			justify-content: space-between;
-			height: 100vh;
+			height: 89vh;
+			position: relative;
 
 			button{
 				margin: 0 8%;
@@ -553,4 +555,14 @@ footer{
 .slick-dots li.slick-active button:before{
 	color: white;
 }
-	
+.slider-info{
+	position: absolute;
+	bottom: -3%;
+	font-size: 14px;
+}
+.right-photo .slider-info{
+	position: absolute;
+	bottom: 7%;
+	font-size: 14px;
+	line-height: 14px;
+}	
