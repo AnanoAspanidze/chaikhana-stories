@@ -340,7 +340,8 @@ main {
     justify-content: space-between;
     height: 80vh; }
     main .third-story .left-slider3 {
-      width: 35%; }
+      width: 35%;
+      height: 80vh; }
       main .third-story .left-slider3 p {
         width: 100%;
         height: 65%;
@@ -350,7 +351,8 @@ main {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      width: 60%; }
+      width: 60%;
+      height: 60vh; }
       main .third-story .right-slider3 .third-slider {
         height: auto; }
       main .third-story .right-slider3 .slider3-info {
