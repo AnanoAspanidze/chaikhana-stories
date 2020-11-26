@@ -18,8 +18,10 @@
   },
   "homepage": "https://github.com/AnanoAspanidze/chaikhana-stories#readme",
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1",
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0",
     "node-sass": "^5.0.0"
-  }
+  },
+  "dependencies": {}
 }

@@ -15,31 +15,29 @@ body {
   height: 10vh;
   color: white; }
   .container h1 {
-    opacity: 0.7;
+    opacity: 0.5;
     cursor: default;
     transition: 0.7s; }
     .container h1:hover {
       opacity: 1; }
   .container .main-navigation {
-    width: 10%;
+    width: 12%;
     display: flex;
     justify-content: space-between;
     transition: 0.5s;
     height: 5px; }
     .container .main-navigation li {
-      opacity: 0.7;
       transition: 0.7s;
       cursor: default;
       margin-bottom: -5px; }
       .container .main-navigation li a {
-        opacity: 0.7;
+        opacity: 0.5;
         transition: 0.7s;
         cursor: pointer; }
         .container .main-navigation li a:hover {
           opacity: 1; }
-      .container .main-navigation li:hover {
-        opacity: 1; }
     .container .main-navigation .lang-switch {
+      opacity: 0.5;
       height: 15px;
       transition: 0.5s;
       overflow-y: hidden;
@@ -48,16 +46,10 @@ body {
       .container .main-navigation .lang-switch::-webkit-scrollbar {
         width: 0 !important; }
       .container .main-navigation .lang-switch:hover {
-        height: 70px; }
+        height: 70px;
+        opacity: 1; }
     .container .main-navigation:hover {
       opacity: 1; }
-    .container .main-navigation .arrow {
-      opacity: 0.7;
-      width: 10px;
-      height: 10px;
-      position: absolute;
-      right: 9%;
-      top: 50%; }
 
 .flex-container {
   position: absolute;
@@ -73,12 +65,12 @@ body {
 
 .flex-title {
   color: #f1f1f1;
-  position: relative;
+  position: absolute;
   font-size: 5vw;
   width: 80vw;
   margin: auto;
   text-align: center;
-  top: 40%; }
+  bottom: 30%; }
   .flex-title .header {
     opacity: 0;
     -webkit-transition: all 700ms ease;
@@ -89,16 +81,14 @@ body {
 
 .flex-about {
   color: #f1f1f1;
-  position: relative;
-  width: 60%;
-  font-size: 1.2vw;
-  padding: 4%;
-  top: 40%;
-  opacity: 0;
+  position: absolute;
   width: 50vw;
+  font-size: a1 0.2vw;
+  bottom: 17%;
+  opacity: 0;
   border-radius: 10px;
   line-height: 1.3;
-  margin: auto;
+  margin: 0 20% 0 20%;
   text-align: center;
   transform: rotate(0deg);
   -webkit-transition: all 700ms ease;
@@ -229,6 +219,7 @@ body {
       .container-story .main-navigation li:hover {
         opacity: 1; }
     .container-story .main-navigation .lang-switch {
+      opacity: 0.7;
       height: 15px;
       transition: 0.5s;
       overflow-y: hidden;
