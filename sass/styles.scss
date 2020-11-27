@@ -319,7 +319,7 @@ main{
 				font-size: 20px;
 				line-height: 26px;
 				@media (max-width:1840px) {
-					font-size: 15px;
+					font-size: 13px;
 				}
 				@media (max-width:1605px) {
 					font-size: 12px;
@@ -345,9 +345,7 @@ main{
 
 			}
 			.right-photo{
-				display: flex;
-			flex-direction: column;
-			justify-content: space-between;
+
 				img{
 					width: 100%;
 				}
@@ -379,7 +377,7 @@ main{
 				overflow-y: auto;
 				line-height: 26px;
 				@media (max-width:1840px) {
-					font-size: 15px;
+					font-size: 13px;
 				}
 				@media (max-width:1605px) {
 					font-size: 12px;
@@ -446,26 +444,26 @@ main{
 		color: #919191;
 		font-size: 14px;
 		@media (max-width:1840px) {
-			font-size: 15px;
+			font-size: 13px;
 		}
 		@media (max-width:1605px) {
 			font-size: 12px;
-			line-height: 28px;
+			line-height: 22px;
 		}
-		@media (max-width:1485px) {
-			font-size: 12px;
+		@media (max-width:1460px) {
+			font-size: 11px;
 			line-height: 20px;
 		}
-		@media (max-width:1330px) {
-			font-size: 12px;
-			line-height: 16px;
+		@media (max-width:1300px) {
+			font-size: 8px;
+			line-height: 15px;
 		}
 		@media (max-width:1125px) {
-			font-size: 10px;
+			font-size: 8px;
 		}
 		@media (max-width:1050px) {
-			font-size: 9px;
-			line-height: 12px;
+			font-size: 6px;
+			line-height: 10px;
 		}
 		
 	}
@@ -504,9 +502,6 @@ main{
 			}
 		}
 		.right-slider3{
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
 			width: 60%;
 
 			.third-slider{
@@ -518,7 +513,7 @@ main{
 				line-height: 14px;
 				width: 60%;
 				@media (max-width:1840px) {
-					font-size: 15px;
+					font-size: 13px;
 				}
 				@media (max-width:1605px) {
 					font-size: 12px;
@@ -565,7 +560,7 @@ main{
 				color: #919191;
 				line-height: 14px;
 				@media (max-width:1840px) {
-					font-size: 15px;
+					font-size: 13px;
 				}
 				@media (max-width:1605px) {
 					font-size: 12px;
@@ -625,9 +620,6 @@ main{
 		}
 		.img{
 			width: 60%;
-			display: flex;
-			flex-direction: column;
-			justify-content: space-between;
 			
 			img{
 				width: 100%;
@@ -637,6 +629,28 @@ main{
 				font-size: 14px;
 				color: #919191;
 				line-height: 14px;
+				@media (max-width:1840px) {
+					font-size: 13px;
+				}
+				@media (max-width:1605px) {
+					font-size: 12px;
+					line-height: 28px;
+				}
+				@media (max-width:1485px) {
+					font-size: 12px;
+					line-height: 20px;
+				}
+				@media (max-width:1330px) {
+					font-size: 12px;
+					line-height: 16px;
+				}
+				@media (max-width:1125px) {
+					font-size: 10px;
+				}
+				@media (max-width:1050px) {
+					font-size: 9px;
+					line-height: 12px;
+				}
 				
 			}
 		}
@@ -683,10 +697,54 @@ footer{
 	position: absolute;
 	bottom: -45px;
 	font-size: 14px;
+	@media (max-width:1840px) {
+		font-size: 13px;
+	}
+	@media (max-width:1605px) {
+		font-size: 12px;
+		line-height: 22px;
+	}
+	@media (max-width:1460px) {
+		font-size: 11px;
+		line-height: 20px;
+	}
+	@media (max-width:1300px) {
+		font-size: 8px;
+		line-height: 15px;
+	}
+	@media (max-width:1125px) {
+		font-size: 8px;
+	}
+	@media (max-width:1050px) {
+		font-size: 9px;
+		line-height: 10px;
+	}
 }
 .right-photo .slider-info{
 	font-size: 14px;
 	line-height: 14px;
+	@media (max-width:1840px) {
+		font-size: 13px;
+	}
+	@media (max-width:1605px) {
+		font-size: 12px;
+		line-height: 22px;
+	}
+	@media (max-width:1460px) {
+		font-size: 11px;
+		line-height: 20px;
+	}
+	@media (max-width:1300px) {
+		font-size: 8px;
+		line-height: 15px;
+	}
+	@media (max-width:1125px) {
+		font-size: 8px;
+	}
+	@media (max-width:1050px) {
+		font-size: 9px;
+		line-height: 10px;
+	}
 }
 
 // story3 page
