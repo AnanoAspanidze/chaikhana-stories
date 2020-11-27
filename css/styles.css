@@ -181,7 +181,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 90px;
+  padding: 0 150px;
   font-size: 18px;
   height: 10vh;
   color: black; }
@@ -221,20 +221,21 @@ body {
       opacity: 1; }
 
 main {
-  margin-top: 200px;
   padding: 0 90px; }
-  main .story-header .story-title {
-    margin: 20px 0; }
-    main .story-header .story-title h1 {
-      font-size: 60px;
-      margin-bottom: 15px; }
-    main .story-header .story-title p {
-      font-size: 18px;
-      width: 70%;
-      line-height: 26px; }
-  main .story-header .circle img {
-    width: 20px;
-    height: 20px; }
+  main .story-header {
+    margin-top: 200px; }
+    main .story-header .story-title {
+      margin: 20px 0; }
+      main .story-header .story-title h1 {
+        font-size: 60px;
+        margin-bottom: 15px; }
+      main .story-header .story-title p {
+        font-size: 18px;
+        width: 70%;
+        line-height: 26px; }
+    main .story-header .circle img {
+      width: 20px;
+      height: 20px; }
   main section a, main section p, main section h1 {
     color: #919191; }
   main .first-story {
@@ -621,34 +622,32 @@ footer div {
       line-height: 10px; } }
 
 .story3-header {
-  position: relative;
-  height: 100vh; }
+  position: relative; }
   .story3-header .header-title {
-    margin-left: 90px;
-    margin-top: 220px; }
+    margin-left: 130px;
+    margin-top: 280px; }
     .story3-header .header-title h1 {
       font-size: 80px;
       line-height: 80px; }
     .story3-header .header-title p {
       margin-top: 15px;
       width: 50%;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 20px;
       color: #919191; }
   .story3-header .cover-top {
     position: absolute;
     width: 100%;
-    height: 40vh;
+    height: 400px;
     top: 0;
     background-image: url("../img/story3-header1.jpg");
     background-size: cover;
     background-position: center center;
     z-index: -1; }
   .story3-header .cover-bottom {
-    bottom: 0;
-    position: absolute;
     width: 100%;
-    height: 30vh;
+    height: 400px;
+    margin-top: 50px;
     background-image: url("../img/story3-header2.jpg");
     background-size: cover;
     z-index: -1;
@@ -666,33 +665,29 @@ footer div {
       color: white; }
 
 .portrait1 {
-  margin-top: 5%;
+  margin-top: 70px;
+  padding: 0 200px;
+  margin-bottom: 70px;
   display: flex;
-  height: 80vh;
   justify-content: space-between;
-  padding: 0% 90px;
-  margin-bottom: 6vw; }
-  .portrait1 article {
+  align-items: flex-end; }
+  .portrait1 img {
     width: 40%;
-    height: 80vh; }
-    .portrait1 article img {
-      width: 100%; }
+    height: auto; }
   .portrait1 .portrait-text {
-    margin-top: 20%;
-    height: 35%;
-    position: relative; }
+    width: 50%; }
     .portrait1 .portrait-text .line-width {
-      top: -35%;
-      width: 40%;
       height: 5px;
       background-color: black;
-      position: absolute; }
+      margin-bottom: 25px;
+      width: 50%; }
     .portrait1 .portrait-text h1 {
       font-size: 26px;
       color: black; }
     .portrait1 .portrait-text p {
-      margin-top: 5%;
+      margin-top: 25px;
       font-size: 14px;
+      width: 80%;
       line-height: 16px; }
 
 .banner {
