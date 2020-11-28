@@ -222,7 +222,6 @@ body {
   width: calc(100% - 260px);
   top: 0px;
   height: 100vh;
-  z-index: 12;
   font-size: 18px;
   color: black;
   background-color: transparent;
@@ -807,7 +806,8 @@ footer div {
 
 .dark {
   background-color: rgba(0, 0, 0, 0.7);
-  height: 100vh; }
+  height: 100vh;
+  z-index: 12; }
   .dark .logo {
     color: white; }
     .dark .logo .title {
