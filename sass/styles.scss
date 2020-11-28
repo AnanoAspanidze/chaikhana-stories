@@ -9,26 +9,41 @@ body {
 }
 .container{
 	opacity: 0;
-	position: relative;
+	position: absolute;
     z-index: 1;
-	transition: 0.5s;
     display: flex;
     justify-content: space-between;
-	align-items: center;
-	padding: 50px 90px;
+	padding: 30px 90px;
 	font-size: 18px;
+	width: calc(100% - 180px);
+	top: 0;
 	color:white;
+	transition: background-color  0.5s ;
+	background-color: transparent;
+	
 	
     .logo{
-		height: 15px;
+		height: 18px;
+		overflow:hidden;
+		width: auto;
         h1{
 			opacity: 0.7;
 			white-space: nowrap;
+			margin-bottom: 10px;
         	cursor: default;
-                transition: 0.7s;
+            transition:opacity 0.7s;
                 &:hover{
                     opacity: 1;
                 }
+		}
+		.title{
+			margin-bottom: 20px;
+		}
+		&:hover{
+			height: 250px;
+			.title{
+				opacity: 1;
+			}
 		}
     }
 
@@ -66,28 +81,13 @@ body {
 			li{
 				margin-bottom: -5px;
 			}
-			@media (max-width:650px){
-				margin-left: 20px;
-			}
 		}
 		&:hover{
 			opacity: 1;
 		}
 		
 	}
-	@media (max-width:650px){
-		font-size: 11px;
-		padding: 50px 30px;
-		nav{
-			ul{
-				li{
-					i{
-						font-size: 8px;
-					}
-				}
-			}
-		}
-	}
+	
 }
 .flex-container {
 	font-size:18px;
@@ -158,14 +158,16 @@ body {
 			font-size: 16px;
 		}
 	}
-	@media (max-width:770px){
+	@media (max-width:870px){
 		.flex-title{
-			font-size: 18px;
+			font-size: 22px;
 		}
 		.flex-about{
 			font-size: 11px;
+			bottom: 40px;
 		}
 	}
+
 	.fa-circle{
 		position: absolute;
 		right: 10px;
@@ -268,25 +270,53 @@ body {
 //story2
 
 .container-story{
-	transition: 0.5s;
     display: flex;
     justify-content: space-between;
-	align-items: center;
-	padding: 0 130px;
+	padding: 30px 130px;
+	position: absolute;
+	width: calc(100% - 260px);
+	top: 0px;
+	height: 100vh;
+	z-index: 12;
 	font-size: 18px;
-	height: 10vh;
-    color:black;
-    h1{
-        opacity: 0.7;
-        cursor: default;
-                transition: 0.7s;
+	color:black;
+	background-color: transparent;
+	transition: background-color 0.5s;
+    .logo{
+		height: 18px;
+		overflow:hidden;
+		transition: height 0.2s;
+		width: auto;
+        h1{
+			cursor: default;
+			margin-bottom: 10px;
+			padding-right: 5px;
+			a{
+				opacity: 0.5;
+				transition: 0.7s;
+				color:black;
                 &:hover{
                     opacity: 1;
                 }
+			}
+			.active-a{
+				opacity: 1;
+				cursor: pointer;
+				.fa-circle{
+					font-size: 10px;
+				}
+			}
+		}
+		.title{
+			margin-bottom: 20px;
+			opacity: 0.7;
+		}
+		&:hover{
+			height: 250px;
+		}
     }
 
     .main-navigation{
-        width: 150px;
         display: flex;
 		justify-content: space-between;
 		transition: 0.5s;
@@ -305,6 +335,7 @@ body {
 			}
 		}
 		.lang-switch{
+			margin-left: 50px;
 			opacity: 0.7;
 			height: 15px;
 			transition: 0.5s;
@@ -317,18 +348,35 @@ body {
 				opacity: 1;
 
 			}
+			@media (max-width:650px){
+				margin-left: 20px;
+			}
 		}
 		&:hover{
 			opacity: 1;
 		}
-		
-    }
+		@media (max-width:650px){
+			font-size: 11px;
+			ul{
+				li{
+					i{
+						font-size: 8px;
+					}
+				}
+			}
+		}
+	}
+	@media (max-width:650px){
+		font-size: 11px;
+		padding: 30px 50px;
+		width: calc(100% - 100px);
+	}
 }
 main{
 	padding: 0 130px;
 
 	.story-header{
-		margin-top: 200px;
+		margin-top: 300px;
 		.story-title{
 			margin: 20px 0;
 	
@@ -821,7 +869,7 @@ footer{
 	
 	.header-title{
 		margin-left: 130px;
-		margin-top: 280px;
+		margin-top: -40px;
 		h1{
 			font-size:80px;
 			line-height: 80px;
@@ -835,10 +883,8 @@ footer{
 		}
 	}
 	.cover-top{
-		position: absolute;
 		width: 100%;
 		height: 400px;
-		top: 0;
 		background-image: url('../img/story3-header1.jpg');
 		background-size: cover;
 		background-position: center center;
@@ -863,12 +909,16 @@ footer{
 				color: white;
 			}
 		}
-		div{
-			li{
+	}
+	.logo{
+		h1{
+			a{
 				color: white;
-				a{
-					color: white;
-				}
+			}
+		}
+		.title{
+			a{
+				opacity: 0.7;
 			}
 		}
 	}
@@ -938,4 +988,21 @@ footer{
 }
 .slick-dots li button::before{
 	opacity: 1;
+}
+.dark{
+	background-color: rgba($color: #000000, $alpha: 0.7);
+	height: 100vh;
+
+	.logo{
+		color: white;
+		.title{
+			opacity: 1;
+		}
+		h1{
+			color: white;
+			a{
+				color: white;
+			}
+		}
+	}
 }
