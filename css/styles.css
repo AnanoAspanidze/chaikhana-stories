@@ -15,18 +15,20 @@ body {
   padding: 50px 90px;
   font-size: 18px;
   color: white; }
-  .container .logo h1 {
-    opacity: 0.7;
-    white-space: nowrap;
-    cursor: default;
-    transition: 0.7s; }
-    .container .logo h1:hover {
-      opacity: 1; }
+  .container .logo {
+    height: 15px; }
+    .container .logo h1 {
+      opacity: 0.7;
+      white-space: nowrap;
+      cursor: default;
+      transition: 0.7s; }
+      .container .logo h1:hover {
+        opacity: 1; }
   .container .main-navigation {
     display: flex;
     justify-content: space-between;
     transition: 0.5s;
-    height: 17px; }
+    height: 15px; }
     .container .main-navigation li {
       transition: 0.7s;
       cursor: default; }
@@ -48,9 +50,18 @@ body {
         height: 70px;
         opacity: 1; }
       .container .main-navigation .lang-switch li {
-        margin-bottom: -10px; }
+        margin-bottom: -5px; }
+      @media (max-width: 650px) {
+        .container .main-navigation .lang-switch {
+          margin-left: 20px; } }
     .container .main-navigation:hover {
       opacity: 1; }
+  @media (max-width: 650px) {
+    .container {
+      font-size: 11px;
+      padding: 50px 30px; }
+      .container nav ul li i {
+        font-size: 8px; } }
 
 .flex-container {
   font-size: 18px;
@@ -93,7 +104,7 @@ body {
   -o-transition: all 70ms ease;
   transition: all 70ms ease; }
   .flex-about p {
-    margin: 0 20%; }
+    margin: 0 10%; }
 
 .flex-slide {
   height: 100vh;
@@ -108,6 +119,24 @@ body {
   transition: all 500ms ease;
   overflow: hidden;
   border-right: 2px solid gray; }
+  @media (max-width: 1300px) {
+    .flex-slide .flex-title {
+      font-size: 40px; }
+    .flex-slide .flex-about {
+      font-size: 16px; } }
+  @media (max-width: 770px) {
+    .flex-slide .flex-title {
+      font-size: 18px; }
+    .flex-slide .flex-about {
+      font-size: 11px; } }
+  .flex-slide .fa-circle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transition: 0.5s;
+    transform: translateY(-50%);
+    color: transparent;
+    font-size: 11px; }
 
 .story1 {
   position: absolute;
@@ -129,9 +158,13 @@ body {
   background-position: center center;
   background-attachment: fixed; }
   .story3 .flex-about {
-    bottom: 7%; }
-    .story3 .flex-about p {
-      margin: 0 10%; }
+    bottom: 40px; }
+  @media (max-width: 770px) {
+    .story3 .flex-title {
+      font-size: 18px;
+      bottom: 200px; }
+    .story3 .flex-about {
+      font-size: 11px; } }
 
 .story4 {
   background: url("../img/story2-img1.jpg");
@@ -170,11 +203,13 @@ body {
   .active .container {
     opacity: 1; }
   .active .black-transparency {
-    opacity: 0.3; }
+    opacity: 0.2; }
   .active .flex-about {
     opacity: 1; }
   .active .flex-title .header {
     opacity: 1; }
+  .active .fa-circle {
+    color: white; }
 
 .container-story {
   transition: 0.5s;
@@ -243,6 +278,7 @@ main {
     display: flex;
     justify-content: space-between; }
     main .first-story article {
+      height: 100%;
       width: 49%;
       position: relative; }
       main .first-story article .story-text {
@@ -271,7 +307,7 @@ main {
             font-size: 10px; } }
         @media (max-width: 1050px) {
           main .first-story article .story-text {
-            font-size: 9px;
+            font-size: 11px;
             line-height: 12px; } }
       main .first-story article .right-photo img {
         width: 100%; }
@@ -294,15 +330,15 @@ main {
       main .second-story .little .second-section-title {
         width: 100%;
         color: black;
-        overflow-y: auto;
-        line-height: 26px; }
+        line-height: 26px;
+        font-size: 14px; }
         @media (max-width: 1840px) {
           main .second-story .little .second-section-title {
             font-size: 13px; } }
         @media (max-width: 1605px) {
           main .second-story .little .second-section-title {
             font-size: 12px;
-            line-height: 28px; } }
+            line-height: 23px; } }
         @media (max-width: 1485px) {
           main .second-story .little .second-section-title {
             font-size: 12px;
@@ -313,10 +349,10 @@ main {
             line-height: 16px; } }
         @media (max-width: 1125px) {
           main .second-story .little .second-section-title {
-            font-size: 10px; } }
+            font-size: 11px; } }
         @media (max-width: 1050px) {
           main .second-story .little .second-section-title {
-            font-size: 9px;
+            font-size: 11px;
             line-height: 12px; } }
     main .second-story .big {
       position: relative; }
@@ -357,22 +393,22 @@ main {
     @media (max-width: 1605px) {
       main .second-section-info {
         font-size: 12px;
-        line-height: 22px; } }
-    @media (max-width: 1460px) {
+        line-height: 28px; } }
+    @media (max-width: 1485px) {
       main .second-section-info {
-        font-size: 11px;
+        font-size: 12px;
         line-height: 20px; } }
-    @media (max-width: 1300px) {
+    @media (max-width: 1330px) {
       main .second-section-info {
-        font-size: 8px;
-        line-height: 15px; } }
+        font-size: 12px;
+        line-height: 16px; } }
     @media (max-width: 1125px) {
       main .second-section-info {
-        font-size: 8px; } }
+        font-size: 10px; } }
     @media (max-width: 1050px) {
       main .second-section-info {
-        font-size: 6px;
-        line-height: 10px; } }
+        font-size: 11px;
+        line-height: 12px; } }
   main .third-story {
     display: flex;
     justify-content: space-between;
@@ -403,7 +439,7 @@ main {
             font-size: 8px; } }
         @media (max-width: 1050px) {
           main .third-story .left-slider3 p {
-            font-size: 9px;
+            font-size: 11px;
             line-height: 10px; } }
     main .third-story .right-slider3 {
       width: 60%; }
@@ -433,7 +469,7 @@ main {
             font-size: 10px; } }
         @media (max-width: 1050px) {
           main .third-story .right-slider3 .slider3-info {
-            font-size: 9px;
+            font-size: 11px;
             line-height: 12px; } }
     main .third-story button {
       margin: 0 7%;
@@ -473,7 +509,7 @@ main {
             font-size: 10px; } }
         @media (max-width: 1050px) {
           main .fourth-story article p {
-            font-size: 9px;
+            font-size: 11px;
             line-height: 12px; } }
   main .fifth-story {
     margin-top: 50px;
@@ -501,10 +537,10 @@ main {
           line-height: 16px; } }
       @media (max-width: 1125px) {
         main .fifth-story .text {
-          font-size: 10px; } }
+          font-size: 11px; } }
       @media (max-width: 1050px) {
         main .fifth-story .text {
-          font-size: 9px;
+          font-size: 11px;
           line-height: 12px; } }
     main .fifth-story .img {
       width: 60%; }
@@ -532,10 +568,10 @@ main {
             line-height: 16px; } }
         @media (max-width: 1125px) {
           main .fifth-story .img p {
-            font-size: 10px; } }
+            font-size: 11px; } }
         @media (max-width: 1050px) {
           main .fifth-story .img p {
-            font-size: 9px;
+            font-size: 11px;
             line-height: 12px; } }
   main .page-switcher {
     margin: 150px 0;
@@ -546,6 +582,18 @@ main {
       color: black;
       transition: 0.5s;
       align-items: center; }
+      main .page-switcher article a .fa-chevron-left {
+        vertical-align: middle; }
+      main .page-switcher article a .fa-chevron-right {
+        vertical-align: middle; }
+    @media (max-width: 1300px) {
+      main .page-switcher {
+        font-size: 30px;
+        margin: 50px 0; }
+        main .page-switcher .fa-chevron-left {
+          vertical-align: middle; }
+        main .page-switcher .fa-chevron-right {
+          vertical-align: middle; } }
 
 footer div {
   height: 120px;
@@ -585,14 +633,14 @@ footer div {
       line-height: 20px; } }
   @media (max-width: 1300px) {
     .slider-info {
-      font-size: 8px;
+      font-size: 11px;
       line-height: 15px; } }
   @media (max-width: 1125px) {
     .slider-info {
-      font-size: 8px; } }
+      font-size: 11px; } }
   @media (max-width: 1050px) {
     .slider-info {
-      font-size: 9px;
+      font-size: 11px;
       line-height: 10px; } }
 
 .right-photo .slider-info {
@@ -611,14 +659,14 @@ footer div {
       line-height: 20px; } }
   @media (max-width: 1300px) {
     .right-photo .slider-info {
-      font-size: 8px;
+      font-size: 11px;
       line-height: 15px; } }
   @media (max-width: 1125px) {
     .right-photo .slider-info {
-      font-size: 8px; } }
+      font-size: 11px; } }
   @media (max-width: 1050px) {
     .right-photo .slider-info {
-      font-size: 9px;
+      font-size: 11px;
       line-height: 10px; } }
 
 .story3-header {
@@ -712,12 +760,6 @@ footer div {
 
 .fa-circle {
   font-size: 15px;
-  vertical-align: middle; }
-
-.fa-chevron-left {
-  vertical-align: middle; }
-
-.fa-chevron-right {
   vertical-align: middle; }
 
 .slick-dotted.slick-slider {
