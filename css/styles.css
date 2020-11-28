@@ -412,10 +412,30 @@ main {
           color: white;
           line-height: 14px;
           font-size: 14px;
-          z-index: 1; }
-          @media (max-width: 1000px) {
+          z-index: 1;
+          margin-top: 10px; }
+          @media (max-width: 1840px) {
             main .second-story .big .slider-with-info .slider2-info {
-              font-size: 8px; } }
+              font-size: 13px; } }
+          @media (max-width: 1605px) {
+            main .second-story .big .slider-with-info .slider2-info {
+              font-size: 12px;
+              line-height: 28px; } }
+          @media (max-width: 1485px) {
+            main .second-story .big .slider-with-info .slider2-info {
+              font-size: 12px;
+              line-height: 20px; } }
+          @media (max-width: 1330px) {
+            main .second-story .big .slider-with-info .slider2-info {
+              font-size: 12px;
+              line-height: 16px; } }
+          @media (max-width: 1125px) {
+            main .second-story .big .slider-with-info .slider2-info {
+              font-size: 10px; } }
+          @media (max-width: 1050px) {
+            main .second-story .big .slider-with-info .slider2-info {
+              font-size: 11px;
+              line-height: 12px; } }
       main .second-story .big button {
         margin: 0 35px;
         font-size: 0;
@@ -463,22 +483,22 @@ main {
         @media (max-width: 1605px) {
           main .third-story .left-slider3 p {
             font-size: 12px;
-            line-height: 22px; } }
-        @media (max-width: 1460px) {
+            line-height: 23px; } }
+        @media (max-width: 1485px) {
           main .third-story .left-slider3 p {
-            font-size: 11px;
+            font-size: 12px;
             line-height: 20px; } }
-        @media (max-width: 1300px) {
+        @media (max-width: 1330px) {
           main .third-story .left-slider3 p {
-            font-size: 8px;
-            line-height: 15px; } }
+            font-size: 12px;
+            line-height: 16px; } }
         @media (max-width: 1125px) {
           main .third-story .left-slider3 p {
-            font-size: 8px; } }
+            font-size: 11px; } }
         @media (max-width: 1050px) {
           main .third-story .left-slider3 p {
             font-size: 11px;
-            line-height: 10px; } }
+            line-height: 12px; } }
     main .third-story .right-slider3 {
       width: 60%; }
       main .third-story .right-slider3 .slider3-info {

@@ -524,8 +524,28 @@ main{
 					line-height: 14px;
 					font-size: 14px;
 					z-index: 1;
-					@media (max-width:1000px) {
-						font-size: 8px;
+					margin-top: 10px;
+					@media (max-width:1840px) {
+						font-size: 13px;
+					}
+					@media (max-width:1605px) {
+						font-size: 12px;
+						line-height: 28px;
+					}
+					@media (max-width:1485px) {
+						font-size: 12px;
+						line-height: 20px;
+					}
+					@media (max-width:1330px) {
+						font-size: 12px;
+						line-height: 16px;
+					}
+					@media (max-width:1125px) {
+						font-size: 10px;
+					}
+					@media (max-width:1050px) {
+						font-size: 11px;
+						line-height: 12px;
 					}
 				}
 			}
@@ -580,22 +600,22 @@ main{
 				}
 				@media (max-width:1605px) {
 					font-size: 12px;
-					line-height: 22px;
+					line-height: 23px;
 				}
-				@media (max-width:1460px) {
-					font-size: 11px;
+				@media (max-width:1485px) {
+					font-size: 12px;
 					line-height: 20px;
 				}
-				@media (max-width:1300px) {
-					font-size: 8px;
-					line-height: 15px;
+				@media (max-width:1330px) {
+					font-size: 12px;
+					line-height: 16px;
 				}
 				@media (max-width:1125px) {
-					font-size: 8px;
+					font-size: 11px;
 				}
 				@media (max-width:1050px) {
 					font-size: 11px;
-					line-height: 10px;
+					line-height: 12px;
 				}
 			}
 		}
