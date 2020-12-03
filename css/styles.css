@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+.slick-prev::before {
+  content: none; }
+
+.slick-next::before {
+  content: none; }
+
+.slick-arrow img {
+  height: 100%; }
+
 body {
-  margin: 0;
-  padding: 0;
+  overflow-x: hidden;
   font-family: 'Raleway', sans-serif; }
 
 .container {
@@ -82,7 +90,7 @@ body {
   font-size: 70px;
   width: 85vw;
   text-align: center;
-  bottom: 170px; }
+  bottom: 140px; }
   .flex-title .header {
     opacity: 0;
     -webkit-transition: all 700ms ease;
@@ -170,7 +178,7 @@ body {
       font-size: 11px; } }
 
 .story4 {
-  background: url("../img/story2-img1.jpg");
+  background: url("../img/story4.png");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed; }
@@ -217,11 +225,12 @@ body {
 .container-story {
   display: flex;
   justify-content: space-between;
-  padding: 30px 130px;
+  margin: 30px 130px;
   position: absolute;
   width: calc(100% - 260px);
   top: 0px;
-  height: 100vh;
+  height: 0;
+  z-index: 9999;
   font-size: 18px;
   color: black;
   background-color: transparent;
@@ -631,32 +640,34 @@ main {
           main .fifth-story .img p {
             font-size: 11px;
             line-height: 12px; } }
-  main .page-switcher {
-    margin: 150px 0;
+
+footer {
+  background-color: black;
+  padding: 50px 130px; }
+  footer .page-switcher {
+    color: white;
     display: flex;
     justify-content: space-between;
     font-size: 60px; }
-    main .page-switcher article a {
-      color: black;
+    footer .page-switcher article a {
+      color: white;
       transition: 0.5s;
       align-items: center; }
-      main .page-switcher article a .fa-chevron-left {
+      footer .page-switcher article a .fa-chevron-left {
         vertical-align: middle; }
-      main .page-switcher article a .fa-chevron-right {
+      footer .page-switcher article a .fa-chevron-right {
         vertical-align: middle; }
     @media (max-width: 1300px) {
-      main .page-switcher {
+      footer .page-switcher {
         font-size: 30px;
         margin: 50px 0; }
-        main .page-switcher .fa-chevron-left {
+        footer .page-switcher .fa-chevron-left {
           vertical-align: middle; }
-        main .page-switcher .fa-chevron-right {
+        footer .page-switcher .fa-chevron-right {
           vertical-align: middle; } }
-
-footer div {
-  height: 120px;
-  width: 100%;
-  background-color: black; }
+  footer .footer-hr {
+    margin: 30px 0;
+    border-color: grey; }
 
 .slick-dots {
   margin-bottom: 35px; }
@@ -827,6 +838,8 @@ footer div {
 .dark {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100vh;
+  margin: 0;
+  padding: 30px 130px;
   z-index: 12; }
   .dark .logo {
     color: white; }
@@ -836,3 +849,28 @@ footer div {
       color: white; }
       .dark .logo h1 a {
         color: white; }
+
+.fourth-story-cover {
+  width: 100%; }
+  .fourth-story-cover .fourth-story-slider {
+    width: 100%;
+    overflow: hidden; }
+    .fourth-story-cover .fourth-story-slider img {
+      width: 100%;
+      height: 800px;
+      object-fit: cover; }
+
+.zero {
+  padding: 0;
+  overflow-x: hidden;
+  object-fit: cover; }
+  .zero .story-header {
+    margin: 50px 130px; }
+    .zero .story-header .circle {
+      padding-top: 100px; }
+    .zero .story-header .story-content {
+      line-height: 26px;
+      font-size: 14px;
+      width: 50%; }
+      .zero .story-header .story-content br {
+        margin-bottom: 20px; }

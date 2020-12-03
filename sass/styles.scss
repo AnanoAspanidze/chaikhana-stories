@@ -1,10 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Raleway');
-
-
+.slick-prev::before{
+	content: none;
+}
+.slick-next::before{
+	content: none;
+}
+.slick-arrow{
+	img{
+		height: 100%;
+	}
+}
 body {
-	margin: 0;
-	padding: 0;
+	overflow-x:hidden;
 	font-family: 'Raleway', sans-serif;
 }
 .container{
@@ -105,7 +113,7 @@ body {
 	font-size: 70px;
 	width: 85vw;
 	text-align: center;
-	bottom: 170px;
+	bottom: 140px;
 
 	.header{
 		opacity: 0;
@@ -217,7 +225,7 @@ body {
 	}
 }
 .story4 {
-	background: url('../img/story2-img1.jpg');
+	background: url('../img/story4.png');
 	background-size: cover;
 	background-position: center center;
     background-attachment: fixed;	
@@ -272,11 +280,12 @@ body {
 .container-story{
     display: flex;
     justify-content: space-between;
-	padding: 30px 130px;
+	margin: 30px 130px;
 	position: absolute;
 	width: calc(100% - 260px);
 	top: 0px;
-	height: 100vh;
+	height: 0;
+	z-index: 9999;
 	font-size: 18px;
 	color:black;
 	background-color: transparent;
@@ -773,15 +782,19 @@ main{
 			}
 		}
 	}
+}
+footer{
+	background-color: black;
+	padding: 50px 130px;
 	.page-switcher{
-		margin: 150px 0;
+		color: white;
 		display: flex;
 		justify-content: space-between;
 		font-size: 60px;
 		
 		article{
 			a{
-				color:black;
+				color:white;
 				transition: 0.5s;
 				align-items: center;
 				.fa-chevron-left{
@@ -803,12 +816,9 @@ main{
 			}
 		}
 	}
-}
-footer{
-	div{
-		height: 120px;
-		width: 100%;
-		background-color: black;
+	.footer-hr{
+		margin: 30px 0;
+		border-color: grey;
 	}
 }
 .slick-dots{
@@ -1011,6 +1021,8 @@ footer{
 .dark{
 	background-color: rgba($color: #000000, $alpha: 0.7);
 	height: 100vh;
+	margin: 0;
+	padding: 30px 130px;;
 
 	.logo{
 		color: white;
@@ -1026,3 +1038,37 @@ footer{
 	}
 	z-index: 12;
 }
+//story 5
+.fourth-story-cover{
+	width: 100%;
+	.fourth-story-slider{
+		width: 100%;
+		overflow: hidden;
+		img{
+			width: 100%;
+			height: 800px;
+			object-fit: cover;
+
+		}
+	}
+}
+.zero{
+	padding:0;
+	overflow-x: hidden;
+	object-fit: cover;
+	.story-header{
+		margin: 50px 130px;
+		.circle{
+			padding-top: 100px;
+		}
+		.story-content{
+			line-height: 26px;
+			font-size: 14px;
+			width: 50%;
+			br{
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
+
