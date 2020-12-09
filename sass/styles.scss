@@ -2,11 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 .slick-prev::before{
 	content: none;
+	z-index: 1;
 }
 .slick-next::before{
 	content: none;
+	z-index: 1;
 }
 .slick-arrow{
+	z-index: 1;
 	img{
 		width: 80%;
 	}
@@ -753,6 +756,7 @@ main{
 			}
 			p{
 				margin-top: 10px;
+				margin-bottom: 50px;
 				font-size: 14px;
 				color: #919191;
 				line-height: 14px;
@@ -784,40 +788,67 @@ main{
 	}
 }
 footer{
-	background-color: black;
-	padding: 50px 130px;
+	background-color: #171717;
+	padding: 0px 130px;
 	.page-switcher{
 		color: white;
 		display: flex;
 		justify-content: space-between;
-		font-size: 60px;
+		font-size: 80px;
 		
 		article{
+			padding: 75px 0;
 			a{
 				color:white;
 				transition: 0.5s;
+				display: flex;
 				align-items: center;
-				.fa-chevron-left{
-					vertical-align: middle;
+				img{
+					height: 100px;
+					width: auto;
 				}
-				.fa-chevron-right{
-					vertical-align: middle;
+				.for-padding{
+					padding: 0 50px;
+				}
+			}
+		}
+		.right{
+			a{
+				img{
+					transform: rotateY(180deg);
 				}
 			}
 		}
 		@media (max-width:1300px) {
 			font-size: 30px;
-			margin: 50px 0;
-			.fa-chevron-left{
-				vertical-align: middle;
+			article{
+				padding: 25px 0;
+				a{
+					img{
+						height: 50px;
+						width: auto;
+					}
+					.for-padding{
+						padding: 0 20px;
+					}
+				}
 			}
-			.fa-chevron-right{
-				vertical-align: middle;
+		}
+	}
+	.logos{
+		height: 176px;
+		img{
+			width: auto;
+			height: 72px;
+			margin-right: 80px;
+			padding: 50px 0;
+			@media (max-width:800px){
+				height: 25px;
+				margin-right: 40px;
 			}
 		}
 	}
 	.footer-hr{
-		margin: 30px 0;
 		border-color: grey;
 	}
 }

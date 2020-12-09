@@ -1,12 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 .slick-prev::before {
-  content: none; }
+  content: none;
+  z-index: 1; }
 
 .slick-next::before {
-  content: none; }
+  content: none;
+  z-index: 1; }
 
-.slick-arrow img {
-  width: 80%; }
+.slick-arrow {
+  z-index: 1; }
+  .slick-arrow img {
+    width: 80%; }
 
 body {
   overflow-x: hidden;
@@ -615,6 +619,7 @@ main {
         width: 100%; }
       main .fifth-story .img p {
         margin-top: 10px;
+        margin-bottom: 50px;
         font-size: 14px;
         color: #919191;
         line-height: 14px; }
@@ -642,31 +647,49 @@ main {
             line-height: 12px; } }
 
 footer {
-  background-color: black;
-  padding: 50px 130px; }
+  background-color: #171717;
+  padding: 0px 130px; }
   footer .page-switcher {
     color: white;
     display: flex;
     justify-content: space-between;
-    font-size: 60px; }
-    footer .page-switcher article a {
-      color: white;
-      transition: 0.5s;
-      align-items: center; }
-      footer .page-switcher article a .fa-chevron-left {
-        vertical-align: middle; }
-      footer .page-switcher article a .fa-chevron-right {
-        vertical-align: middle; }
+    font-size: 80px; }
+    footer .page-switcher article {
+      padding: 75px 0; }
+      footer .page-switcher article a {
+        color: white;
+        transition: 0.5s;
+        display: flex;
+        align-items: center; }
+        footer .page-switcher article a img {
+          height: 100px;
+          width: auto; }
+        footer .page-switcher article a .for-padding {
+          padding: 0 50px; }
+    footer .page-switcher .right a img {
+      transform: rotateY(180deg); }
     @media (max-width: 1300px) {
       footer .page-switcher {
-        font-size: 30px;
-        margin: 50px 0; }
-        footer .page-switcher .fa-chevron-left {
-          vertical-align: middle; }
-        footer .page-switcher .fa-chevron-right {
-          vertical-align: middle; } }
+        font-size: 30px; }
+        footer .page-switcher article {
+          padding: 25px 0; }
+          footer .page-switcher article a img {
+            height: 50px;
+            width: auto; }
+          footer .page-switcher article a .for-padding {
+            padding: 0 20px; } }
+  footer .logos {
+    height: 176px; }
+    footer .logos img {
+      width: auto;
+      height: 72px;
+      margin-right: 80px;
+      padding: 50px 0; }
+      @media (max-width: 800px) {
+        footer .logos img {
+          height: 25px;
+          margin-right: 40px; } }
   footer .footer-hr {
-    margin: 30px 0;
     border-color: grey; }
 
 .slick-dots {
