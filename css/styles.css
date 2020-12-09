@@ -240,7 +240,7 @@ body {
   background-color: transparent;
   transition: background-color 0.5s; }
   .container-story .logo {
-    height: 18px;
+    height: 20px;
     overflow: hidden;
     transition: height 0.2s;
     width: auto; }
@@ -314,7 +314,7 @@ main {
       margin: 20px 0; }
       main .story-header .story-title h1 {
         font-size: 60px;
-        margin-bottom: 15px; }
+        margin-bottom: 20px; }
       main .story-header .story-title p {
         font-size: 18px;
         width: 70%;
