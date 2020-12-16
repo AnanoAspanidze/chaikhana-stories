@@ -75,10 +75,14 @@
 		$(this).css('cursor','pointer');
 		setTimeout(function(){ $(".story7").css('cursor','default'); },300);
 	  });
-	  $(".logo").hover(function () {
+	$(".logo").hover(function () {
 		$(".container").toggleClass("dark");
 		$(".container-story").toggleClass("dark");
 		});
+	$(".lang-switch").hover(function () {
+		$(".container").toggleClass("dark-lang");
+		$(".container-story").toggleClass("dark-lang");
+		});	
 
 	  //slider
 

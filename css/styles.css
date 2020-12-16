@@ -65,7 +65,7 @@ body {
       margin-left: 50px;
       opacity: 0.7;
       height: 15px;
-      transition: 0.5s;
+      transition: height 0.5s;
       overflow-y: hidden; }
       .container .main-navigation .lang-switch::-webkit-scrollbar {
         width: 0 !important; }
@@ -653,9 +653,9 @@ footer {
     color: white;
     display: flex;
     justify-content: space-between;
-    font-size: 80px; }
+    font-size: 60px; }
     footer .page-switcher article {
-      padding: 75px 0; }
+      padding: 35px 0; }
       footer .page-switcher article a {
         color: white;
         transition: 0.5s;
@@ -679,12 +679,12 @@ footer {
           footer .page-switcher article a .for-padding {
             padding: 0 20px; } }
   footer .logos {
-    height: 176px; }
+    height: 100px; }
     footer .logos img {
       width: auto;
       height: 72px;
-      margin-right: 80px;
-      padding: 50px 0; }
+      margin-right: 60px;
+      padding: 10px 0; }
       @media (max-width: 800px) {
         footer .logos img {
           height: 25px;
@@ -871,6 +871,19 @@ footer {
     .dark .logo h1 {
       color: white; }
       .dark .logo h1 a {
+        color: white; }
+
+.dark-lang {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+  margin: 0;
+  padding: 30px 130px;
+  z-index: 12; }
+  .dark-lang .main-navigation .lang-switch {
+    color: white; }
+    .dark-lang .main-navigation .lang-switch li {
+      color: white; }
+      .dark-lang .main-navigation .lang-switch li a {
         color: white; }
 
 .fourth-story-cover {
