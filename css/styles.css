@@ -1,4 +1,44 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
+@font-face {
+  font-family: 'HelveticaNeueBold';
+  src: url("../fonts/HelveticaNeueBold.eot");
+  src: url("../fonts/HelveticaNeueBold.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueBold.woff2") format("woff2"), url("../fonts/HelveticaNeueBold.woff") format("woff"), url("../fonts/HelveticaNeueBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'HelveticaNeueHeavy';
+  src: url("../fonts/HelveticaNeueHeavy.eot");
+  src: url("../fonts/HelveticaNeueHeavy.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueHeavy.woff2") format("woff2"), url("../fonts/HelveticaNeueHeavy.woff") format("woff"), url("../fonts/HelveticaNeueHeavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'GilroyBold';
+  src: url("../fonts/Gilroy-Bold.eot");
+  src: url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'GilroyMedium';
+  src: url("../fonts/Gilroy-Medium.eot");
+  src: url("../fonts/Gilroy-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Medium.woff2") format("woff2"), url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'HelveticaNeueBoldo';
+  src: url("../fonts/HelveticaNeueBold_1.eot");
+  src: url("../fonts/HelveticaNeueBold_1.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueBold_1.woff2") format("woff2"), url("../fonts/HelveticaNeueBold_1.woff") format("woff"), url("../fonts/HelveticaNeueBold_1.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
 .slick-prev::before {
   content: none;
   z-index: 1; }
@@ -16,67 +56,6 @@ body {
   overflow-x: hidden;
   font-family: 'Raleway', sans-serif; }
 
-.container {
-  opacity: 0;
-  position: absolute;
-  z-index: 1;
-  display: flex;
-  justify-content: space-between;
-  padding: 30px 90px;
-  font-size: 18px;
-  width: calc(100% - 180px);
-  top: 0;
-  color: white;
-  transition: background-color  0.5s;
-  background-color: transparent; }
-  .container .logo {
-    height: 18px;
-    overflow: hidden;
-    width: auto; }
-    .container .logo h1 {
-      opacity: 0.7;
-      white-space: nowrap;
-      margin-bottom: 10px;
-      cursor: default;
-      transition: opacity 0.7s; }
-      .container .logo h1:hover {
-        opacity: 1; }
-    .container .logo .title {
-      margin-bottom: 20px; }
-    .container .logo:hover {
-      height: 250px; }
-      .container .logo:hover .title {
-        opacity: 1; }
-  .container .main-navigation {
-    display: flex;
-    justify-content: space-between;
-    transition: 0.5s;
-    height: 15px; }
-    .container .main-navigation li {
-      transition: 0.7s;
-      cursor: default; }
-      .container .main-navigation li a {
-        opacity: 0.7;
-        transition: 0.7s;
-        cursor: pointer; }
-        .container .main-navigation li a:hover {
-          opacity: 1; }
-    .container .main-navigation .lang-switch {
-      margin-left: 50px;
-      opacity: 0.7;
-      height: 15px;
-      transition: height 0.5s;
-      overflow-y: hidden; }
-      .container .main-navigation .lang-switch::-webkit-scrollbar {
-        width: 0 !important; }
-      .container .main-navigation .lang-switch:hover {
-        height: 70px;
-        opacity: 1; }
-      .container .main-navigation .lang-switch li {
-        margin-bottom: -5px; }
-    .container .main-navigation:hover {
-      opacity: 1; }
-
 .flex-container {
   font-size: 18px;
   height: 100vh;
@@ -91,6 +70,7 @@ body {
 .flex-title {
   color: #f1f1f1;
   position: absolute;
+  font-family: "GilroyBold", sans-serif;
   font-size: 70px;
   width: 85vw;
   text-align: center;
@@ -107,8 +87,10 @@ body {
   color: #f1f1f1;
   position: absolute;
   width: 85vw;
+  font-family: "GilroyBold", sans-serif;
   font-size: 18px;
-  bottom: 90px;
+  transform: translateY(100%);
+  bottom: 130px;
   opacity: 0;
   line-height: 1.3;
   text-align: center;
@@ -118,6 +100,8 @@ body {
   -o-transition: all 70ms ease;
   transition: all 70ms ease; }
   .flex-about p {
+    margin: 0 20%; }
+  .flex-about .wider {
     margin: 0 10%; }
 
 .flex-slide {
@@ -172,8 +156,6 @@ body {
   background-size: cover;
   background-position: center center;
   background-attachment: fixed; }
-  .story3 .flex-about {
-    bottom: 40px; }
   @media (max-width: 770px) {
     .story3 .flex-title {
       font-size: 18px;
@@ -188,19 +170,19 @@ body {
   background-attachment: fixed; }
 
 .story5 {
-  background: url("../img/story3.jpg");
+  background: url("../img/story5.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed; }
 
 .story6 {
-  background: url("../img/story2.jpg");
+  background: url("../img/story6.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed; }
 
 .story7 {
-  background: url("../img/story3.jpg");
+  background: url("../img/story7.png");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed; }
@@ -236,11 +218,12 @@ body {
   height: 0;
   z-index: 9999;
   font-size: 18px;
+  font-family: "GilroyBold", sans-serif;
   color: black;
   background-color: transparent;
   transition: background-color 0.5s; }
   .container-story .logo {
-    height: 20px;
+    height: 45px;
     overflow: hidden;
     transition: height 0.2s;
     width: auto; }
@@ -314,11 +297,13 @@ main {
       margin: 20px 0; }
       main .story-header .story-title h1 {
         font-size: 60px;
+        font-family: "GilroyBold", sans-serif;
         margin-bottom: 20px; }
       main .story-header .story-title p {
         font-size: 18px;
         width: 70%;
-        line-height: 26px; }
+        line-height: 26px;
+        font-family: "GilroyBold", sans-serif; }
     main .story-header .circle img {
       width: 20px;
       height: 20px; }
@@ -335,8 +320,9 @@ main {
       main .first-story article .story-text {
         width: 100%;
         height: 49%;
-        color: black;
+        color: #6D6D6D;
         font-size: 20px;
+        font-family: "GilroyBold", sans-serif;
         line-height: 26px; }
         @media (max-width: 1840px) {
           main .first-story article .story-text {
@@ -380,8 +366,9 @@ main {
       margin-bottom: 20px; }
       main .second-story .little .second-section-title {
         width: 100%;
-        color: black;
+        color: #6D6D6D;
         line-height: 26px;
+        font-family: "GilroyBold", sans-serif;
         font-size: 14px; }
         @media (max-width: 1840px) {
           main .second-story .little .second-section-title {
@@ -424,6 +411,7 @@ main {
           margin-top: 5px;
           color: white;
           line-height: 14px;
+          font-family: "GilroyMedium", sans-serif;
           font-size: 14px;
           z-index: 1;
           margin-top: 10px; }
@@ -456,8 +444,9 @@ main {
         background-color: none; }
   main .second-section-info {
     margin-top: 10px;
-    color: #919191;
-    font-size: 14px; }
+    color: #6D6D6D;
+    font-size: 14px;
+    font-family: "GilroyMedium", sans-serif; }
     @media (max-width: 1840px) {
       main .second-section-info {
         font-size: 13px; } }
@@ -488,8 +477,9 @@ main {
       width: 35%; }
       main .third-story .left-slider3 p {
         font-size: 14px;
-        color: black;
-        line-height: 26px; }
+        color: #6D6D6D;
+        line-height: 26px;
+        font-family: "GilroyBold", sans-serif; }
         @media (max-width: 1840px) {
           main .third-story .left-slider3 p {
             font-size: 13px; } }
@@ -517,9 +507,10 @@ main {
       main .third-story .right-slider3 .slider3-info {
         margin-top: 10px;
         font-size: 14px;
+        font-family: "GilroyMedium", sans-serif;
         color: #919191;
         line-height: 14px;
-        width: 60%; }
+        width: 80%; }
         @media (max-width: 1840px) {
           main .third-story .right-slider3 .slider3-info {
             font-size: 13px; } }
@@ -559,6 +550,7 @@ main {
         width: 60%;
         font-size: 14px;
         color: #919191;
+        font-family: "GilroyMedium", sans-serif;
         line-height: 14px; }
         @media (max-width: 1840px) {
           main .fourth-story article p {
@@ -589,7 +581,8 @@ main {
     main .fifth-story .text {
       width: 38%;
       font-size: 25px;
-      color: black;
+      color: #6D6D6D;
+      font-family: "GilroyBold", sans-serif;
       line-height: 26px; }
       @media (max-width: 1840px) {
         main .fifth-story .text {
@@ -621,6 +614,7 @@ main {
         margin-top: 10px;
         margin-bottom: 50px;
         font-size: 14px;
+        font-family: "GilroyMedium", sans-serif;
         color: #919191;
         line-height: 14px; }
         @media (max-width: 1840px) {
@@ -653,16 +647,17 @@ footer {
     color: white;
     display: flex;
     justify-content: space-between;
-    font-size: 60px; }
+    font-family: "GilroyBold", sans-serif;
+    font-size: 40px; }
     footer .page-switcher article {
-      padding: 35px 0; }
+      padding: 45px 0; }
       footer .page-switcher article a {
         color: white;
         transition: 0.5s;
         display: flex;
         align-items: center; }
         footer .page-switcher article a img {
-          height: 100px;
+          height: 35px;
           width: auto; }
         footer .page-switcher article a .for-padding {
           padding: 0 50px; }
@@ -711,7 +706,8 @@ footer {
 .slider-info {
   position: absolute;
   bottom: -45px;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: "GilroyMedium", sans-serif; }
   @media (max-width: 1840px) {
     .slider-info {
       font-size: 13px; } }
@@ -737,7 +733,8 @@ footer {
 
 .right-photo .slider-info {
   font-size: 14px;
-  line-height: 14px; }
+  line-height: 14px;
+  font-family: "GilroyMedium", sans-serif; }
   @media (max-width: 1840px) {
     .right-photo .slider-info {
       font-size: 13px; } }
@@ -765,16 +762,20 @@ footer {
   position: relative; }
   .story3-header .header-title {
     margin-left: 130px;
-    margin-top: -40px; }
+    margin-top: -50px; }
     .story3-header .header-title h1 {
       font-size: 80px;
-      line-height: 80px; }
+      font-family: "GilroyBold", sans-serif;
+      color: #171717;
+      line-height: 80px;
+      width: 85%; }
     .story3-header .header-title p {
       margin-top: 15px;
       width: 50%;
       font-size: 16px;
       line-height: 20px;
-      color: #919191; }
+      font-family: "GilroyBold", sans-serif;
+      color: #171717; }
   .story3-header .cover-top {
     width: 100%;
     height: 400px;
@@ -782,6 +783,10 @@ footer {
     background-size: cover;
     background-position: center center;
     z-index: -1; }
+  .story3-header .fifth-up {
+    background-image: url("../img/story5-header1.jpg"); }
+  .story3-header .sixth-up {
+    background-image: url("../img/story6-header1.jpg"); }
   .story3-header .cover-bottom {
     width: 100%;
     height: 400px;
@@ -790,6 +795,10 @@ footer {
     background-size: cover;
     z-index: -1;
     background-position: center center; }
+  .story3-header .fifth-bottom {
+    background-image: url("../img/story5-header2.jpg"); }
+  .story3-header .sixth-bottom {
+    background-image: url("../img/story6-header2.jpg"); }
 
 .white {
   color: white; }
@@ -810,23 +819,45 @@ footer {
   justify-content: space-between;
   align-items: flex-end; }
   .portrait1 img {
-    width: 40%;
+    width: calc(50% - 20px);
     height: auto; }
   .portrait1 .portrait-text {
-    width: 50%; }
+    width: calc(50% - 20px); }
     .portrait1 .portrait-text .line-width {
       height: 5px;
       background-color: black;
       margin-bottom: 25px;
-      width: 50%; }
+      width: 40%; }
     .portrait1 .portrait-text h1 {
       font-size: 26px;
-      color: black; }
+      color: #171717;
+      font-family: "GilroyBold", sans-serif; }
     .portrait1 .portrait-text p {
       margin-top: 25px;
+      font-family: "GilroyBold", sans-serif;
       font-size: 14px;
-      width: 80%;
-      line-height: 16px; }
+      width: 90%;
+      color: #6D6D6D;
+      line-height: 18px; }
+      .portrait1 .portrait-text p br {
+        margin-bottom: 50px; }
+    .portrait1 .portrait-text article .article-image img {
+      width: 100%; }
+    .portrait1 .portrait-text article .article-image p {
+      margin-top: 10px;
+      font-size: 12px;
+      font-family: "GilroyMedium", sans-serif; }
+  .portrait1 .article-image {
+    width: 50%; }
+    .portrait1 .article-image img {
+      width: 100%; }
+    .portrait1 .article-image p {
+      margin-top: 10px;
+      font-size: 12px;
+      font-family: "GilroyMedium", sans-serif; }
+
+.start {
+  align-items: flex-start; }
 
 .banner {
   width: 100%; }
@@ -897,6 +928,8 @@ footer {
       width: 100%;
       height: 800px;
       object-fit: cover; }
+  .fourth-story-cover p {
+    font-size: 14px; }
 
 .zero {
   padding: 0;
@@ -909,7 +942,9 @@ footer {
     .zero .story-header .story-content {
       line-height: 26px;
       font-size: 14px;
-      width: 50%; }
+      width: 50%;
+      font-family: "GilroyBold", sans-serif;
+      color: #6D6D6D; }
       .zero .story-header .story-content br {
         margin-bottom: 20px; }
 
@@ -929,3 +964,31 @@ footer {
 
 .zero .story5-padding .story-title {
   margin-bottom: 150px; }
+
+.story-fifth {
+  padding: 0;
+  margin: 100px 0; }
+  .story-fifth .portrait-text h1 {
+    font-size: 14px; }
+
+.fifth-info {
+  font-family: "GilroyMedium", sans-serif;
+  font-size: 12px;
+  color: #6D6D6D;
+  margin-top: 10px; }
+
+.to-rus {
+  margin: 300px 0 50px 0;
+  font-family: "GilroyBold", sans-serif;
+  font-size: 18px; }
+
+.russian .portrait-text {
+  width: 80%; }
+  .russian .portrait-text h1 {
+    font-size: 60px;
+    margin-bottom: 100px; }
+  .russian .portrait-text p {
+    width: 70%;
+    margin-bottom: 100px; }
+    .russian .portrait-text p .russian-span {
+      color: black; }
