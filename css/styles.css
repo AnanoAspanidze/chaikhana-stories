@@ -321,16 +321,16 @@ main {
         width: 100%;
         height: 49%;
         color: #6D6D6D;
-        font-size: 20px;
+        font-size: 18px;
         font-family: "GilroyBold", sans-serif;
         line-height: 26px; }
         @media (max-width: 1840px) {
           main .first-story article .story-text {
-            font-size: 13px; } }
+            font-size: 15px; } }
         @media (max-width: 1605px) {
           main .first-story article .story-text {
-            font-size: 12px;
-            line-height: 28px; } }
+            font-size: 13px;
+            line-height: 22px; } }
         @media (max-width: 1485px) {
           main .first-story article .story-text {
             font-size: 12px;
@@ -369,14 +369,14 @@ main {
         color: #6D6D6D;
         line-height: 26px;
         font-family: "GilroyBold", sans-serif;
-        font-size: 14px; }
+        font-size: 18px; }
         @media (max-width: 1840px) {
           main .second-story .little .second-section-title {
-            font-size: 13px; } }
+            font-size: 15px; } }
         @media (max-width: 1605px) {
           main .second-story .little .second-section-title {
-            font-size: 12px;
-            line-height: 23px; } }
+            font-size: 13px;
+            line-height: 22px; } }
         @media (max-width: 1485px) {
           main .second-story .little .second-section-title {
             font-size: 12px;
@@ -385,9 +385,6 @@ main {
           main .second-story .little .second-section-title {
             font-size: 12px;
             line-height: 16px; } }
-        @media (max-width: 1125px) {
-          main .second-story .little .second-section-title {
-            font-size: 11px; } }
         @media (max-width: 1050px) {
           main .second-story .little .second-section-title {
             font-size: 11px;
@@ -430,9 +427,6 @@ main {
             main .second-story .big .slider-with-info .slider2-info {
               font-size: 12px;
               line-height: 16px; } }
-          @media (max-width: 1125px) {
-            main .second-story .big .slider-with-info .slider2-info {
-              font-size: 10px; } }
           @media (max-width: 1050px) {
             main .second-story .big .slider-with-info .slider2-info {
               font-size: 11px;
@@ -462,9 +456,6 @@ main {
       main .second-section-info {
         font-size: 12px;
         line-height: 16px; } }
-    @media (max-width: 1125px) {
-      main .second-section-info {
-        font-size: 10px; } }
     @media (max-width: 1050px) {
       main .second-section-info {
         font-size: 11px;
@@ -476,17 +467,17 @@ main {
     main .third-story .left-slider3 {
       width: 35%; }
       main .third-story .left-slider3 p {
-        font-size: 14px;
+        font-size: 18px;
         color: #6D6D6D;
         line-height: 26px;
         font-family: "GilroyBold", sans-serif; }
         @media (max-width: 1840px) {
           main .third-story .left-slider3 p {
-            font-size: 13px; } }
+            font-size: 15px; } }
         @media (max-width: 1605px) {
           main .third-story .left-slider3 p {
-            font-size: 12px;
-            line-height: 23px; } }
+            font-size: 13px;
+            line-height: 22px; } }
         @media (max-width: 1485px) {
           main .third-story .left-slider3 p {
             font-size: 12px;
@@ -495,9 +486,6 @@ main {
           main .third-story .left-slider3 p {
             font-size: 12px;
             line-height: 16px; } }
-        @media (max-width: 1125px) {
-          main .third-story .left-slider3 p {
-            font-size: 11px; } }
         @media (max-width: 1050px) {
           main .third-story .left-slider3 p {
             font-size: 11px;
@@ -567,9 +555,6 @@ main {
           main .fourth-story article p {
             font-size: 12px;
             line-height: 16px; } }
-        @media (max-width: 1125px) {
-          main .fourth-story article p {
-            font-size: 10px; } }
         @media (max-width: 1050px) {
           main .fourth-story article p {
             font-size: 11px;
@@ -580,7 +565,7 @@ main {
     justify-content: space-between; }
     main .fifth-story .text {
       width: 38%;
-      font-size: 25px;
+      font-size: 18px;
       color: #6D6D6D;
       font-family: "GilroyBold", sans-serif;
       line-height: 26px; }
@@ -589,8 +574,8 @@ main {
           font-size: 15px; } }
       @media (max-width: 1605px) {
         main .fifth-story .text {
-          font-size: 12px;
-          line-height: 28px; } }
+          font-size: 13px;
+          line-height: 22px; } }
       @media (max-width: 1485px) {
         main .fifth-story .text {
           font-size: 12px;
@@ -599,9 +584,6 @@ main {
         main .fifth-story .text {
           font-size: 12px;
           line-height: 16px; } }
-      @media (max-width: 1125px) {
-        main .fifth-story .text {
-          font-size: 11px; } }
       @media (max-width: 1050px) {
         main .fifth-story .text {
           font-size: 11px;
@@ -776,6 +758,13 @@ footer {
       line-height: 20px;
       font-family: "GilroyBold", sans-serif;
       color: #171717; }
+    @media (max-width: 1200px) {
+      .story3-header .header-title h1 {
+        font-size: 50px;
+        line-height: 40px; }
+      .story3-header .header-title p {
+        font-size: 14px;
+        line-height: 18px; } }
   .story3-header .cover-top {
     width: 100%;
     height: 400px;
@@ -992,3 +981,57 @@ footer {
     margin-bottom: 100px; }
     .russian .portrait-text p .russian-span {
       color: black; }
+
+.history {
+  margin: 100px 20%;
+  text-align: center;
+  font-size: 16px;
+  font-family: "GilroyMedium", sans-serif;
+  line-height: 26px; }
+
+.about-main {
+  background-color: #171717;
+  padding: 10%;
+  color: white; }
+  .about-main .about-header {
+    text-align: center; }
+    .about-main .about-header h1 {
+      font-size: 80px;
+      padding: 100px 0;
+      line-height: 96px;
+      font-family: "GilroyBold", sans-serif; }
+      @media (max-width: 1200px) {
+        .about-main .about-header h1 {
+          font-size: 50px;
+          line-height: 60px; } }
+    .about-main .about-header p {
+      font-size: 16px;
+      line-height: 26px;
+      font-family: "GilroyBold", sans-serif;
+      text-align: left;
+      margin-bottom: 100px; }
+  .about-main .credits {
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    margin-bottom: 160px; }
+    .about-main .credits div {
+      margin: 50px 0; }
+      .about-main .credits div .authors li {
+        font-family: "GilroyMedium", sans-serif;
+        color: #6D6D6D;
+        padding-top: 5px; }
+      .about-main .credits div h3 {
+        color: #6D6D6D;
+        font-family: "GilroyMedium", sans-serif;
+        margin-top: 10px; }
+
+.top-border {
+  border-top: 1px solid gray;
+  padding: 50px 0; }
+
+footer .right-page-switcher {
+  text-align: right;
+  display: block; }
+
+.container-story .main-navigation li .white-ab {
+  opacity: 1; }
