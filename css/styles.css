@@ -74,7 +74,7 @@ body {
   font-size: 70px;
   width: 85vw;
   text-align: center;
-  bottom: 140px; }
+  bottom: 150px; }
   .flex-title .header {
     opacity: 0;
     -webkit-transition: all 700ms ease;
@@ -223,14 +223,15 @@ body {
   background-color: transparent;
   transition: background-color 0.5s; }
   .container-story .logo {
-    height: 45px;
+    height: 47px;
     overflow: hidden;
     transition: height 0.2s;
     width: auto; }
     .container-story .logo h1 {
       cursor: default;
       margin-bottom: 10px;
-      padding-right: 5px; }
+      padding-right: 5px;
+      line-height: 24px; }
       .container-story .logo h1 a {
         opacity: 0.5;
         transition: 0.7s;
@@ -246,7 +247,7 @@ body {
       margin-bottom: 20px;
       opacity: 0.7; }
     .container-story .logo:hover {
-      height: 250px; }
+      height: 300px; }
   .container-story .main-navigation {
     display: flex;
     justify-content: space-between;
@@ -298,10 +299,10 @@ main {
       main .story-header .story-title h1 {
         font-size: 60px;
         font-family: "GilroyBold", sans-serif;
-        margin-bottom: 20px; }
+        margin-bottom: 40px; }
       main .story-header .story-title p {
         font-size: 18px;
-        width: 70%;
+        width: 60%;
         line-height: 26px;
         font-family: "GilroyBold", sans-serif; }
     main .story-header .circle img {
@@ -1026,12 +1027,36 @@ footer {
         margin-top: 10px; }
 
 .top-border {
-  border-top: 1px solid gray;
-  padding: 50px 0; }
+  border-top: 1px solid gray; }
 
 footer .right-page-switcher {
   text-align: right;
-  display: block; }
+  display: block;
+  padding: 50px 0; }
+
+footer .flex-end {
+  justify-content: flex-end; }
 
 .container-story .main-navigation li .white-ab {
   opacity: 1; }
+
+.hn {
+  font-family: "HelveticaNeueHeavy", sans-serif; }
+  .hn p {
+    font-family: "HelveticaNeueHeavy", sans-serif; }
+  .hn a {
+    font-family: "HelveticaNeueHeavy", sans-serif; }
+  .hn h1 {
+    font-family: "HelveticaNeueHeavy", sans-serif; }
+    .hn h1 a {
+      font-family: "HelveticaNeueHeavy", sans-serif; }
+  .hn li {
+    font-family: "HelveticaNeueHeavy", sans-serif; }
+    .hn li a {
+      font-family: "HelveticaNeueHeavy", sans-serif; }
+  .hn ul {
+    font-family: "HelveticaNeueHeavy", sans-serif; }
+    .hn ul li {
+      font-family: "HelveticaNeueHeavy", sans-serif; }
+      .hn ul li a {
+        font-family: "HelveticaNeueHeavy", sans-serif; }
