@@ -86,17 +86,25 @@
 
 	  //slider
 
-	  $('.slider1').slick({
-		dots: true,
+	$('.slider1').slick({
+	dots: true,
+	infinite: true,
+	speed: 500,
+	fade: true,
+	cssEase: 'linear',
+	arrows: true,
+	prevArrow:"<button type='button' class='slick-prev pull-left'><img src='img/arrow-left.svg'></button>",
+	nextArrow:"<button type='button' class='slick-next pull-right'><img src='img/arrow-right.svg'></button>"
+
+	});
+	  
+	$('.fullscreen').slick({
+		dots: false,
 		infinite: true,
+		autoplay: true,
 		speed: 500,
+		autoplaySpeed: 3000,
+		pauseOnHover: false,
 		fade: true,
-		cssEase: 'linear',
-		arrows: true,
-		prevArrow:"<button type='button' class='slick-prev pull-left'><img src='img/arrow-left.svg'></button>",
-		nextArrow:"<button type='button' class='slick-next pull-right'><img src='img/arrow-right.svg'></button>"
-
-
-
-
-	  });
+		cssEase: 'linear'
+	});

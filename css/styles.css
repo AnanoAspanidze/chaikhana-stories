@@ -1095,3 +1095,8 @@ footer .flex-end {
         font-family: "HelveticaNeueLight", sans-serif !important; }
       .hn div div p {
         font-family: "HelveticaNeueLight", sans-serif !important; }
+
+.fullscreen img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; }
