@@ -39,6 +39,14 @@
   font-style: normal;
   font-display: swap; }
 
+@font-face {
+  font-family: 'HelveticaNeueLight';
+  src: url("../fonts/HelveticaNeueLight.eot");
+  src: url("../fonts/HelveticaNeueLight.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLight.woff2") format("woff2"), url("../fonts/HelveticaNeueLight.woff") format("woff"), url("../fonts/HelveticaNeueLight.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap; }
+
 .slick-prev::before {
   content: none;
   z-index: 1; }
@@ -117,7 +125,7 @@ body {
   transition: all 500ms ease;
   overflow: hidden;
   border-right: 2px solid gray; }
-  @media (max-width: 1300px) {
+  @media (max-width: 1400px) {
     .flex-slide .flex-title {
       font-size: 40px; }
     .flex-slide .flex-about {
@@ -126,8 +134,7 @@ body {
     .flex-slide .flex-title {
       font-size: 22px; }
     .flex-slide .flex-about {
-      font-size: 11px;
-      bottom: 40px; } }
+      font-size: 11px; } }
   .flex-slide .fa-circle {
     position: absolute;
     right: 10px;
@@ -223,15 +230,13 @@ body {
   background-color: transparent;
   transition: background-color 0.5s; }
   .container-story .logo {
-    height: 47px;
+    height: 55px;
     overflow: hidden;
     transition: height 0.2s;
     width: auto; }
     .container-story .logo h1 {
       cursor: default;
-      margin-bottom: 10px;
-      padding-right: 5px;
-      line-height: 24px; }
+      padding-right: 5px; }
       .container-story .logo h1 a {
         opacity: 0.5;
         transition: 0.7s;
@@ -248,6 +253,9 @@ body {
       opacity: 0.7; }
     .container-story .logo:hover {
       height: 300px; }
+    @media (max-width: 910px) {
+      .container-story .logo {
+        height: 40px; } }
   .container-story .main-navigation {
     display: flex;
     justify-content: space-between;
@@ -266,29 +274,36 @@ body {
     .container-story .main-navigation .lang-switch {
       margin-left: 50px;
       opacity: 0.7;
-      height: 15px;
-      transition: 0.5s;
+      height: 30px;
+      transition: 0.3s;
       overflow-y: hidden; }
       .container-story .main-navigation .lang-switch::-webkit-scrollbar {
         width: 0 !important; }
       .container-story .main-navigation .lang-switch:hover {
         height: 70px;
         opacity: 1; }
-      @media (max-width: 650px) {
+      .container-story .main-navigation .lang-switch li {
+        margin-bottom: 10px; }
+      @media (max-width: 910px) {
         .container-story .main-navigation .lang-switch {
-          margin-left: 20px; } }
+          height: 25px; } }
+      @media (max-width: 610px) {
+        .container-story .main-navigation .lang-switch {
+          margin-left: 20px;
+          height: 20px; } }
     .container-story .main-navigation:hover {
       opacity: 1; }
-    @media (max-width: 650px) {
-      .container-story .main-navigation {
-        font-size: 11px; }
-        .container-story .main-navigation ul li i {
-          font-size: 8px; } }
-  @media (max-width: 650px) {
+    @media (max-width: 910px) {
+      .container-story .main-navigation ul li i {
+        font-size: 8px; } }
+  @media (max-width: 910px) {
     .container-story {
-      font-size: 11px;
-      padding: 30px 50px;
+      font-size: 14px;
+      margin: 20px 50px;
       width: calc(100% - 100px); } }
+  @media (max-width: 610px) {
+    .container-story {
+      font-size: 11px; } }
 
 main {
   padding: 0 130px; }
@@ -304,6 +319,7 @@ main {
         font-size: 18px;
         width: 60%;
         line-height: 26px;
+        color: #6D6D6D;
         font-family: "GilroyBold", sans-serif; }
     main .story-header .circle img {
       width: 20px;
@@ -753,19 +769,21 @@ footer {
       line-height: 80px;
       width: 85%; }
     .story3-header .header-title p {
-      margin-top: 15px;
+      margin-top: 50px;
       width: 50%;
       font-size: 16px;
       line-height: 20px;
       font-family: "GilroyBold", sans-serif;
       color: #171717; }
-    @media (max-width: 1200px) {
-      .story3-header .header-title h1 {
-        font-size: 50px;
-        line-height: 40px; }
-      .story3-header .header-title p {
-        font-size: 14px;
-        line-height: 18px; } }
+    @media (max-width: 1500px) {
+      .story3-header .header-title {
+        margin-top: -25px; }
+        .story3-header .header-title h1 {
+          font-size: 50px;
+          line-height: 40px; }
+        .story3-header .header-title p {
+          font-size: 14px;
+          line-height: 18px; } }
   .story3-header .cover-top {
     width: 100%;
     height: 400px;
@@ -893,6 +911,9 @@ footer {
       color: white; }
       .dark .logo h1 a {
         color: white; }
+  @media (max-width: 910px) {
+    .dark {
+      padding: 20px 50px; } }
 
 .dark-lang {
   background-color: rgba(0, 0, 0, 0.7);
@@ -906,6 +927,9 @@ footer {
       color: white; }
       .dark-lang .main-navigation .lang-switch li a {
         color: white; }
+  @media (max-width: 910px) {
+    .dark-lang {
+      padding: 20px 50px; } }
 
 .fourth-story-cover {
   width: 100%; }
@@ -966,6 +990,9 @@ footer {
   font-size: 12px;
   color: #6D6D6D;
   margin-top: 10px; }
+
+.shorter {
+  width: 60%; }
 
 .to-rus {
   margin: 300px 0 50px 0;
@@ -1041,22 +1068,30 @@ footer .flex-end {
   opacity: 1; }
 
 .hn {
-  font-family: "HelveticaNeueHeavy", sans-serif; }
+  font-family: "HelveticaNeueLight", sans-serif !important; }
   .hn p {
-    font-family: "HelveticaNeueHeavy", sans-serif; }
+    font-family: "HelveticaNeueLight", sans-serif !important; }
   .hn a {
-    font-family: "HelveticaNeueHeavy", sans-serif; }
+    font-family: "HelveticaNeueLight", sans-serif !important; }
   .hn h1 {
-    font-family: "HelveticaNeueHeavy", sans-serif; }
+    font-family: "HelveticaNeueLight", sans-serif !important; }
     .hn h1 a {
-      font-family: "HelveticaNeueHeavy", sans-serif; }
+      font-family: "HelveticaNeueLight", sans-serif !important; }
   .hn li {
-    font-family: "HelveticaNeueHeavy", sans-serif; }
+    font-family: "HelveticaNeueLight", sans-serif !important; }
     .hn li a {
-      font-family: "HelveticaNeueHeavy", sans-serif; }
+      font-family: "HelveticaNeueLight", sans-serif !important; }
   .hn ul {
-    font-family: "HelveticaNeueHeavy", sans-serif; }
+    font-family: "HelveticaNeueLight", sans-serif !important; }
     .hn ul li {
-      font-family: "HelveticaNeueHeavy", sans-serif; }
+      font-family: "HelveticaNeueLight", sans-serif !important; }
       .hn ul li a {
-        font-family: "HelveticaNeueHeavy", sans-serif; }
+        font-family: "HelveticaNeueLight", sans-serif !important; }
+  .hn div {
+    font-family: "HelveticaNeueLight", sans-serif !important; }
+    .hn div div {
+      font-family: "HelveticaNeueLight", sans-serif !important; }
+      .hn div div h1 {
+        font-family: "HelveticaNeueLight", sans-serif !important; }
+      .hn div div p {
+        font-family: "HelveticaNeueLight", sans-serif !important; }
