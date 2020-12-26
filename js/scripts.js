@@ -100,6 +100,8 @@
 	  
 	$('.fullscreen').slick({
 		dots: false,
+   		prevArrow: false,
+    	nextArrow: false,
 		infinite: true,
 		autoplay: true,
 		speed: 500,
