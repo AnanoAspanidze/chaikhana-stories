@@ -318,7 +318,8 @@ main {
       main .story-header .story-title h1 {
         font-size: 60px;
         font-family: "GilroyBold", sans-serif;
-        margin-bottom: 40px;
+        line-height: 60px;
+        margin-bottom: 20px;
         letter-spacing: 2px; }
       main .story-header .story-title p {
         font-size: 15px;
@@ -701,29 +702,21 @@ footer {
   position: relative; }
   .story3-header .header-title {
     margin-left: 130px;
-    margin-top: -50px; }
+    margin-top: -40px; }
     .story3-header .header-title h1 {
-      font-size: 80px;
+      font-size: 60px;
       font-family: "GilroyBold", sans-serif;
       color: #171717;
-      line-height: 80px;
+      line-height: 60px;
+      letter-spacing: 2px;
       width: 85%; }
     .story3-header .header-title p {
-      margin-top: 50px;
+      margin-top: 20px;
       width: 50%;
       font-size: 16px;
-      line-height: 20px;
+      line-height: 22px;
       font-family: "GilroyBold", sans-serif;
       color: #171717; }
-    @media (max-width: 1500px) {
-      .story3-header .header-title {
-        margin-top: -25px; }
-        .story3-header .header-title h1 {
-          font-size: 50px;
-          line-height: 40px; }
-        .story3-header .header-title p {
-          font-size: 14px;
-          line-height: 18px; } }
   .story3-header .cover-top {
     width: 100%;
     height: 400px;
@@ -738,7 +731,7 @@ footer {
   .story3-header .cover-bottom {
     width: 100%;
     height: 400px;
-    margin-top: 50px;
+    margin-top: 35px;
     background-image: url("../img/story3-header2.jpg");
     background-size: cover;
     z-index: -1;
@@ -779,14 +772,15 @@ footer {
     .portrait1 .portrait-text h1 {
       font-size: 26px;
       color: #171717;
-      font-family: "GilroyBold", sans-serif; }
+      font-family: "GilroyBold", sans-serif;
+      line-height: 22px; }
     .portrait1 .portrait-text p {
       margin-top: 25px;
       font-family: "GilroyBold", sans-serif;
       font-size: 14px;
       width: 90%;
       color: #6D6D6D;
-      line-height: 18px; }
+      line-height: 22px; }
       .portrait1 .portrait-text p br {
         margin-bottom: 50px; }
     .portrait1 .portrait-text article .article-image img {
@@ -802,6 +796,7 @@ footer {
     .portrait1 .article-image p {
       margin-top: 10px;
       font-size: 12px;
+      line-height: 16px;
       font-family: "GilroyMedium", sans-serif; }
 
 .start {
@@ -880,19 +875,24 @@ footer {
       height: 800px;
       object-fit: cover; }
   .fourth-story-cover p {
-    font-size: 14px; }
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: "GilroyMedium", sans-serif; }
 
 .zero {
   padding: 0;
   overflow-x: hidden;
   object-fit: cover; }
   .zero .story-header {
-    margin: 50px 130px; }
+    margin: 50px 130px;
+    margin-bottom: 250px; }
     .zero .story-header .circle {
       padding-top: 60px; }
     .zero .story-header .story-content {
       line-height: 26px;
       font-size: 14px;
+      margin-top: 50px;
       width: 50%;
       font-family: "GilroyBold", sans-serif;
       color: #6D6D6D; }
@@ -918,7 +918,8 @@ footer {
 
 .story-fifth {
   padding: 0;
-  margin: 100px 0; }
+  margin-top: 100px;
+  margin-bottom: 40px; }
   .story-fifth .portrait-text h1 {
     font-size: 14px; }
 
@@ -951,6 +952,7 @@ footer {
   margin: 100px 20%;
   text-align: center;
   font-size: 16px;
+  color: #6D6D6D;
   font-family: "GilroyMedium", sans-serif;
   line-height: 26px; }
 
@@ -959,11 +961,12 @@ footer {
   padding: 10%;
   color: white; }
   .about-main .about-header {
-    text-align: center; }
+    text-align: center;
+    margin-top: 200px; }
     .about-main .about-header h1 {
-      font-size: 80px;
-      padding: 100px 0;
-      line-height: 96px;
+      font-size: 60px;
+      padding-bottom: 50px;
+      line-height: 80px;
       font-family: "GilroyBold", sans-serif; }
       @media (max-width: 1200px) {
         .about-main .about-header h1 {
@@ -1041,3 +1044,7 @@ footer .flex-end {
 .less-padding {
   padding: 0 80px;
   width: calc(100% - 160px); }
+
+.gg {
+  line-height: 60px !important;
+  letter-spacing: 2px !important; }

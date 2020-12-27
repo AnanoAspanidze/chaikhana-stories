@@ -337,7 +337,8 @@ main{
 			h1{
 				font-size: 60px;
 				font-family: $GB;
-				margin-bottom: 40px;
+				line-height: 60px;
+				margin-bottom: 20px;
 				letter-spacing: 2px;
 			}
 			p{
@@ -802,32 +803,22 @@ footer{
 	
 	.header-title{
 		margin-left: 130px;
-		margin-top: -50px;
+		margin-top: -40px;
 		h1{
-			font-size:80px;
+			font-size:60px;
 			font-family: $GB;
 			color: #171717;
-			line-height: 80px;
+			line-height: 60px;
+			letter-spacing: 2px;
 			width: 85%;
 		}
 		p{
-			margin-top: 50px;
+			margin-top: 20px;
 			width: 50%;
 			font-size: 16px;
-			line-height: 20px;
+			line-height: 22px;
 			font-family: $GB;
 			color: #171717;
-		}
-		@media (max-width:1500px) {
-			margin-top: -25px;
-			h1{
-				font-size: 50px;
-				line-height: 40px;
-			}
-			p{
-				font-size: 14px;
-				line-height: 18px;
-			}
 		}
 	}
 	.cover-top{
@@ -847,7 +838,7 @@ footer{
 	.cover-bottom{
 		width: 100%;
 		height: 400px;
-		margin-top: 50px;
+		margin-top: 35px;
 		background-image: url('../img/story3-header2.jpg');
 		background-size: cover;
 		z-index: -1;
@@ -907,6 +898,7 @@ footer{
 			font-size: 26px;
 			color: #171717;	
 			font-family: $GB;
+			line-height: 22px;
 		}
 		p{
 			margin-top: 25px;
@@ -914,7 +906,7 @@ footer{
 			font-size: 14px;
 			width: 90%;
 			color: #6D6D6D;
-			line-height: 18px;
+			line-height: 22px;
 			br{
 				margin-bottom: 50px;
 			}
@@ -939,6 +931,7 @@ footer{
 		p{
 			margin-top: 10px;
 			font-size: 12px;
+			line-height: 16px;
 			font-family: $GM;
 		}
 	}
@@ -1040,7 +1033,10 @@ footer{
 		}
 	}
 	p{
-		font-size: 14px;
+			margin-top: 10px;
+			font-size: 12px;
+			line-height: 16px;
+			font-family: $GM;
 	}
 }
 .zero{
@@ -1049,12 +1045,14 @@ footer{
 	object-fit: cover;
 	.story-header{
 		margin: 50px 130px;
+		margin-bottom: 250px;
 		.circle{
 			padding-top: 60px;
 		}
 		.story-content{
 			line-height: 26px;
 			font-size: 14px;
+			margin-top: 50px;
 			width: 50%;
 			font-family: $GB;
 			color: #6D6D6D;
@@ -1088,7 +1086,8 @@ footer{
 }
 .story-fifth{
 	padding: 0;
-	margin: 100px 0;
+	margin-top: 100px;
+	margin-bottom: 40px;
 	.portrait-text{
 		h1{
 			font-size: 14px;
@@ -1130,6 +1129,7 @@ footer{
 	margin: 100px 20%;
 	text-align: center;
 	font-size: 16px;
+	color: #6D6D6D;
 	font-family: $GM;
 	line-height: 26px;
 }
@@ -1140,10 +1140,11 @@ footer{
 
 	.about-header{
 		text-align: center;
+		margin-top: 200px;
 		h1{
-			font-size: 80px;
-			padding: 100px 0;
-			line-height: 96px;
+			font-size: 60px;
+			padding-bottom: 50px;
+			line-height: 80px;
 			font-family: $GB;
 			@media (max-width:1200px) {
 				font-size: 50px;
@@ -1246,4 +1247,8 @@ footer .flex-end{
 .less-padding{
 	padding: 0 80px;
 	width: calc(100% - 160px);
+}
+.gg{
+    line-height: 60px !important;
+    letter-spacing: 2px !important;
 }
