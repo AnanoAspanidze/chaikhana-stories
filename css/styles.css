@@ -82,7 +82,7 @@ body {
   font-size: 70px;
   width: 85vw;
   text-align: center;
-  bottom: 150px; }
+  bottom: 140px; }
   .flex-title .header {
     opacity: 0;
     -webkit-transition: all 700ms ease;
@@ -236,7 +236,8 @@ body {
     width: auto; }
     .container-story .logo h1 {
       cursor: default;
-      padding-right: 5px; }
+      padding-bottom: 10px;
+      font-size: 22px; }
       .container-story .logo h1 a {
         opacity: 0.5;
         transition: 0.7s;
@@ -249,8 +250,9 @@ body {
         .container-story .logo h1 .active-a .fa-circle {
           font-size: 10px; }
     .container-story .logo .title {
-      margin-bottom: 20px;
-      opacity: 0.7; }
+      line-height: 24px;
+      margin-bottom: 5px;
+      opacity: 0.5; }
     .container-story .logo:hover {
       height: 300px; }
     @media (max-width: 910px) {
@@ -265,7 +267,7 @@ body {
       transition: 0.7s;
       cursor: default; }
       .container-story .main-navigation li a {
-        opacity: 0.7;
+        opacity: 0.5;
         color: black;
         transition: 0.7s;
         cursor: pointer; }
@@ -273,7 +275,7 @@ body {
           opacity: 1; }
     .container-story .main-navigation .lang-switch {
       margin-left: 50px;
-      opacity: 0.7;
+      opacity: 0.5;
       height: 16px;
       transition: 0.3s;
       overflow-y: hidden; }
