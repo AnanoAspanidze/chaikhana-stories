@@ -274,7 +274,7 @@ body {
     .container-story .main-navigation .lang-switch {
       margin-left: 50px;
       opacity: 0.7;
-      height: 30px;
+      height: 16px;
       transition: 0.3s;
       overflow-y: hidden; }
       .container-story .main-navigation .lang-switch::-webkit-scrollbar {
