@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 $GB:'GilroyBold', sans-serif;
 $GM:'GilroyMedium', sans-serif;
-$HN:'HelveticaNeueLight', sans-serif;
+$HN:'HelveticaNeueHeavy', sans-serif;
+$HB:'HelveticaNeueBlack', sans-serif;
 
 .slick-prev::before{
 	content: none;
@@ -51,6 +52,9 @@ body {
 	-ms-transition: all 700ms ease;
 	-o-transition: all 700ms ease;
 	transition: all 700ms ease;
+	}
+	@media (max-width:1399px) {
+			font-size: 50px;
 	}
 }
 .flex-about {
@@ -226,6 +230,7 @@ body {
 			transition: width 0.2s;
 			padding-bottom: 10px;
 			font-size: 24px;
+			line-height: 20px;
 			a{
 				opacity: 0.5;
 				transition: 0.7s;
@@ -243,16 +248,16 @@ body {
 			}
 		}
 		.title{
-			line-height: 30px;
 			width: auto;
 			margin-bottom: 5px;
+			line-height: 30px;
 			opacity: 0.5;
 			@media (max-width:830px){
 
 			}
 		}
 		&:hover{
-			height: 350px;
+			height: 355px;
 		}
 		@media (max-width:910px) {
 			height: 40px;
@@ -268,6 +273,7 @@ body {
 		margin-top: 40px;
         li{
 			transition: 0.7s;
+			width: 140px;
 			cursor: default;
             a{
 				opacity: 0.5;
@@ -280,7 +286,7 @@ body {
 			}
 		}
 		.lang-switch{
-			margin-left: 70px;
+			margin-left: 30px;
 			opacity: 0.5;
 			height: 16px;
 			transition: 0.3s;
@@ -295,6 +301,7 @@ body {
 			}
 			li{
 				margin-bottom: 10px;
+				width: 43px;
 			}
 			@media (max-width:910px){
 				height: 25px;
@@ -804,19 +811,20 @@ footer{
 	.header-title{
 		margin-left: 130px;
 		margin-top: -40px;
+		margin-bottom: 60px;
 		h1{
 			font-size:60px;
 			font-family: $GB;
 			color: #171717;
 			line-height: 60px;
-			letter-spacing: 2px;
+			letter-spacing: 3px;
 			width: 85%;
 		}
 		p{
-			margin-top: 20px;
+			margin-top: 40px;
 			width: 50%;
 			font-size: 16px;
-			line-height: 22px;
+			line-height: 23px;
 			font-family: $GB;
 			color: #171717;
 		}
@@ -895,10 +903,10 @@ footer{
 			width: 40%;
 		}
 		h1{
-			font-size: 26px;
+			font-size: 24px;
 			color: #171717;	
 			font-family: $GB;
-			line-height: 22px;
+			line-height: 35px;
 		}
 		p{
 			margin-top: 25px;
@@ -975,7 +983,7 @@ footer{
 }
 .dark{
 	background-color: rgba($color: #000000, $alpha: 0.7);
-	height: 100vh;
+	height: 150vh;
 
 	.logo{
 		color: white;
@@ -1100,13 +1108,13 @@ footer{
 	font-size: 12px;
 	color: #6D6D6D;
 	margin-top: 10px;
+	line-height: 16px;
 }
 .shorter{
 	width: 60%;
 }
 .to-rus{
 	margin: 300px 0 50px 0;
-	font-family: $GB;
 	font-size: 18px;
 }
 .russian{
@@ -1115,6 +1123,7 @@ footer{
 		h1{
 			font-size: 60px;
 			margin-bottom: 100px;
+			line-height: 60px;
 		}
 		p{
 			width: 70%;
@@ -1127,10 +1136,10 @@ footer{
 }
 .history{
 	margin: 100px 20%;
-	text-align: center;
+	text-align: left;
 	font-size: 16px;
 	color: #6D6D6D;
-	font-family: $GM;
+	font-family: $GB;
 	line-height: 26px;
 }
 .about-main{
@@ -1163,13 +1172,14 @@ footer{
 		font-size: 18px;
 		font-family: $GB;
 		margin-bottom: 160px;
+		text-align: center;
 		div{
 			margin: 50px 0;
 			.authors{
 				li{
 					font-family: $GM;
 					color: #6D6D6D;
-					padding-top: 5px;
+					padding-top: 10px;
 				}
 			}
 			h3{
@@ -1199,6 +1209,9 @@ footer .flex-end{
 	font-family: $HN !important;
 	p{
 		font-family: $HN !important;
+	}
+	.russgb{
+		font-family: $GB !important;
 	}
 	a{
 		font-family: $HN !important;
@@ -1236,6 +1249,18 @@ footer .flex-end{
 			}
 		}
 	}
+	article{
+		font-family: $HN !important;
+		div{
+			font-family: $HN !important;
+			h1{
+				font-family: $HN !important;
+			}
+			p{
+				font-family: $HN !important;
+			}
+		}
+	}
 }
 .fullscreen{
 	img{
@@ -1251,4 +1276,10 @@ footer .flex-end{
 .gg{
     line-height: 60px !important;
     letter-spacing: 2px !important;
+}
+.author-down{
+	margin-bottom: 40px !important;
+}
+.author-up{
+	margin-top: 40px !important;
 }

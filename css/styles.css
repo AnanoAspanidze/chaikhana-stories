@@ -1,21 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 @font-face {
-  font-family: 'HelveticaNeueBold';
-  src: url("../fonts/HelveticaNeueBold.eot");
-  src: url("../fonts/HelveticaNeueBold.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueBold.woff2") format("woff2"), url("../fonts/HelveticaNeueBold.woff") format("woff"), url("../fonts/HelveticaNeueBold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: 'HelveticaNeueHeavy';
-  src: url("../fonts/HelveticaNeueHeavy.eot");
-  src: url("../fonts/HelveticaNeueHeavy.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueHeavy.woff2") format("woff2"), url("../fonts/HelveticaNeueHeavy.woff") format("woff"), url("../fonts/HelveticaNeueHeavy.ttf") format("truetype");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap; }
-
-@font-face {
   font-family: 'GilroyBold';
   src: url("../fonts/Gilroy-Bold.eot");
   src: url("../fonts/Gilroy-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Bold.woff2") format("woff2"), url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.ttf") format("truetype");
@@ -32,18 +16,66 @@
   font-display: swap; }
 
 @font-face {
-  font-family: 'HelveticaNeueBoldo';
-  src: url("../fonts/HelveticaNeueBold_1.eot");
-  src: url("../fonts/HelveticaNeueBold_1.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueBold_1.woff2") format("woff2"), url("../fonts/HelveticaNeueBold_1.woff") format("woff"), url("../fonts/HelveticaNeueBold_1.ttf") format("truetype");
+  font-family: 'HelveticaNeueLTGEOW82-25UltLt';
+  src: url("HelveticaNeueLTGEOW82-25UltLt.eot");
+  src: url("HelveticaNeueLTGEOW82-25UltLt.eot?#iefix") format("embedded-opentype"), url("HelveticaNeueLTGEOW82-25UltLt.woff2") format("woff2"), url("HelveticaNeueLTGEOW82-25UltLt.woff") format("woff"), url("HelveticaNeueLTGEOW82-25UltLt.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'HelveticaNeueLTGEOW82-35Th';
+  src: url("../fonts/HelveticaNeueLTGEOW82-35Th.eot");
+  src: url("../fonts/HelveticaNeueLTGEOW82-35Th.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTGEOW82-35Th.woff2") format("woff2"), url("../fonts/HelveticaNeueLTGEOW82-35Th.woff") format("woff"), url("../fonts/HelveticaNeueLTGEOW82-35Th.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'HelveticaNeueLTGEOW82-55Rm';
+  src: url("../fonts/HelveticaNeueLTGEOW82-55Rm.eot");
+  src: url("../fonts/HelveticaNeueLTGEOW82-55Rm.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTGEOW82-55Rm.woff2") format("woff2"), url("../fonts/HelveticaNeueLTGEOW82-55Rm.woff") format("woff"), url("../fonts/HelveticaNeueLTGEOW82-55Rm.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'HelveticaNeueLTGEOW82-65Md';
+  src: url("../fonts/HelveticaNeueLTGEOW82-65Md.eot");
+  src: url("../fonts/HelveticaNeueLTGEOW82-65Md.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTGEOW82-65Md.woff2") format("woff2"), url("../fonts/HelveticaNeueLTGEOW82-65Md.woff") format("woff"), url("../fonts/HelveticaNeueLTGEOW82-65Md.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'HelveticaNeueLTGEOW82-45Lt';
+  src: url("../fonts/HelveticaNeueLTGEOW82-45Lt.eot");
+  src: url("../fonts/HelveticaNeueLTGEOW82-45Lt.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTGEOW82-45Lt.woff2") format("woff2"), url("../fonts/HelveticaNeueLTGEOW82-45Lt.woff") format("woff"), url("../fonts/HelveticaNeueLTGEOW82-45Lt.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'HelveticaNeueLTGEOW82-75Bd';
+  src: url("../fonts/HelveticaNeueLTGEOW82-75Bd.eot");
+  src: url("../fonts/HelveticaNeueLTGEOW82-75Bd.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTGEOW82-75Bd.woff2") format("woff2"), url("../fonts/HelveticaNeueLTGEOW82-75Bd.woff") format("woff"), url("../fonts/HelveticaNeueLTGEOW82-75Bd.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
-  font-family: 'HelveticaNeueLight';
-  src: url("../fonts/HelveticaNeueLight.eot");
-  src: url("../fonts/HelveticaNeueLight.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLight.woff2") format("woff2"), url("../fonts/HelveticaNeueLight.woff") format("woff"), url("../fonts/HelveticaNeueLight.ttf") format("truetype");
-  font-weight: bold;
+  font-family: 'HelveticaNeueHeavy';
+  src: url("../fonts/HelveticaNeueLTGEOW82-85Hv.eot");
+  src: url("../fonts/HelveticaNeueLTGEOW82-85Hv.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTGEOW82-85Hv.woff2") format("woff2"), url("../fonts/HelveticaNeueLTGEOW82-85Hv.woff") format("woff"), url("../fonts/HelveticaNeueLTGEOW82-85Hv.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'HelveticaNeueBlack';
+  src: url("../fonts/HelveticaNeueLTGEOW82-95Blk.eot");
+  src: url("../fonts/HelveticaNeueLTGEOW82-95Blk.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLTGEOW82-95Blk.woff2") format("woff2"), url("../fonts/HelveticaNeueLTGEOW82-95Blk.woff") format("woff"), url("../fonts/HelveticaNeueLTGEOW82-95Blk.ttf") format("truetype");
+  font-weight: 900;
   font-style: normal;
   font-display: swap; }
 
@@ -92,6 +124,9 @@ body {
     -ms-transition: all 700ms ease;
     -o-transition: all 700ms ease;
     transition: all 700ms ease; }
+  @media (max-width: 1399px) {
+    .flex-title {
+      font-size: 50px; } }
 
 .flex-about {
   color: #f1f1f1;
@@ -237,7 +272,8 @@ body {
       width: 200px;
       transition: width 0.2s;
       padding-bottom: 10px;
-      font-size: 24px; }
+      font-size: 24px;
+      line-height: 20px; }
       .container-story .logo h1 a {
         opacity: 0.5;
         transition: 0.7s;
@@ -250,12 +286,12 @@ body {
         .container-story .logo h1 .active-a .fa-circle {
           font-size: 10px; }
     .container-story .logo .title {
-      line-height: 30px;
       width: auto;
       margin-bottom: 5px;
+      line-height: 30px;
       opacity: 0.5; }
     .container-story .logo:hover {
-      height: 350px; }
+      height: 355px; }
     @media (max-width: 910px) {
       .container-story .logo {
         height: 40px; } }
@@ -267,6 +303,7 @@ body {
     margin-top: 40px; }
     .container-story .main-navigation li {
       transition: 0.7s;
+      width: 140px;
       cursor: default; }
       .container-story .main-navigation li a {
         opacity: 0.5;
@@ -276,7 +313,7 @@ body {
         .container-story .main-navigation li a:hover {
           opacity: 1; }
     .container-story .main-navigation .lang-switch {
-      margin-left: 70px;
+      margin-left: 30px;
       opacity: 0.5;
       height: 16px;
       transition: 0.3s;
@@ -287,7 +324,8 @@ body {
         height: 70px;
         opacity: 1; }
       .container-story .main-navigation .lang-switch li {
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        width: 43px; }
       @media (max-width: 910px) {
         .container-story .main-navigation .lang-switch {
           height: 25px; } }
@@ -702,19 +740,20 @@ footer {
   position: relative; }
   .story3-header .header-title {
     margin-left: 130px;
-    margin-top: -40px; }
+    margin-top: -40px;
+    margin-bottom: 60px; }
     .story3-header .header-title h1 {
       font-size: 60px;
       font-family: "GilroyBold", sans-serif;
       color: #171717;
       line-height: 60px;
-      letter-spacing: 2px;
+      letter-spacing: 3px;
       width: 85%; }
     .story3-header .header-title p {
-      margin-top: 20px;
+      margin-top: 40px;
       width: 50%;
       font-size: 16px;
-      line-height: 22px;
+      line-height: 23px;
       font-family: "GilroyBold", sans-serif;
       color: #171717; }
   .story3-header .cover-top {
@@ -770,10 +809,10 @@ footer {
       margin-bottom: 25px;
       width: 40%; }
     .portrait1 .portrait-text h1 {
-      font-size: 26px;
+      font-size: 24px;
       color: #171717;
       font-family: "GilroyBold", sans-serif;
-      line-height: 22px; }
+      line-height: 35px; }
     .portrait1 .portrait-text p {
       margin-top: 25px;
       font-family: "GilroyBold", sans-serif;
@@ -834,7 +873,7 @@ footer {
 
 .dark {
   background-color: rgba(0, 0, 0, 0.7);
-  height: 100vh;
+  height: 150vh;
   z-index: 12; }
   .dark .logo {
     color: white; }
@@ -927,21 +966,22 @@ footer {
   font-family: "GilroyMedium", sans-serif;
   font-size: 12px;
   color: #6D6D6D;
-  margin-top: 10px; }
+  margin-top: 10px;
+  line-height: 16px; }
 
 .shorter {
   width: 60%; }
 
 .to-rus {
   margin: 300px 0 50px 0;
-  font-family: "GilroyBold", sans-serif;
   font-size: 18px; }
 
 .russian .portrait-text {
   width: 80%; }
   .russian .portrait-text h1 {
     font-size: 60px;
-    margin-bottom: 100px; }
+    margin-bottom: 100px;
+    line-height: 60px; }
   .russian .portrait-text p {
     width: 70%;
     margin-bottom: 100px; }
@@ -950,10 +990,10 @@ footer {
 
 .history {
   margin: 100px 20%;
-  text-align: center;
+  text-align: left;
   font-size: 16px;
   color: #6D6D6D;
-  font-family: "GilroyMedium", sans-serif;
+  font-family: "GilroyBold", sans-serif;
   line-height: 26px; }
 
 .about-main {
@@ -981,13 +1021,14 @@ footer {
   .about-main .credits {
     font-size: 18px;
     font-family: "GilroyBold", sans-serif;
-    margin-bottom: 160px; }
+    margin-bottom: 160px;
+    text-align: center; }
     .about-main .credits div {
       margin: 50px 0; }
       .about-main .credits div .authors li {
         font-family: "GilroyMedium", sans-serif;
         color: #6D6D6D;
-        padding-top: 5px; }
+        padding-top: 10px; }
       .about-main .credits div h3 {
         color: #6D6D6D;
         font-family: "GilroyMedium", sans-serif;
@@ -1008,33 +1049,43 @@ footer .flex-end {
   opacity: 1; }
 
 .hn {
-  font-family: "HelveticaNeueLight", sans-serif !important; }
+  font-family: "HelveticaNeueHeavy", sans-serif !important; }
   .hn p {
-    font-family: "HelveticaNeueLight", sans-serif !important; }
+    font-family: "HelveticaNeueHeavy", sans-serif !important; }
+  .hn .russgb {
+    font-family: "GilroyBold", sans-serif !important; }
   .hn a {
-    font-family: "HelveticaNeueLight", sans-serif !important; }
+    font-family: "HelveticaNeueHeavy", sans-serif !important; }
   .hn h1 {
-    font-family: "HelveticaNeueLight", sans-serif !important; }
+    font-family: "HelveticaNeueHeavy", sans-serif !important; }
     .hn h1 a {
-      font-family: "HelveticaNeueLight", sans-serif !important; }
+      font-family: "HelveticaNeueHeavy", sans-serif !important; }
   .hn li {
-    font-family: "HelveticaNeueLight", sans-serif !important; }
+    font-family: "HelveticaNeueHeavy", sans-serif !important; }
     .hn li a {
-      font-family: "HelveticaNeueLight", sans-serif !important; }
+      font-family: "HelveticaNeueHeavy", sans-serif !important; }
   .hn ul {
-    font-family: "HelveticaNeueLight", sans-serif !important; }
+    font-family: "HelveticaNeueHeavy", sans-serif !important; }
     .hn ul li {
-      font-family: "HelveticaNeueLight", sans-serif !important; }
+      font-family: "HelveticaNeueHeavy", sans-serif !important; }
       .hn ul li a {
-        font-family: "HelveticaNeueLight", sans-serif !important; }
+        font-family: "HelveticaNeueHeavy", sans-serif !important; }
   .hn div {
-    font-family: "HelveticaNeueLight", sans-serif !important; }
+    font-family: "HelveticaNeueHeavy", sans-serif !important; }
     .hn div div {
-      font-family: "HelveticaNeueLight", sans-serif !important; }
+      font-family: "HelveticaNeueHeavy", sans-serif !important; }
       .hn div div h1 {
-        font-family: "HelveticaNeueLight", sans-serif !important; }
+        font-family: "HelveticaNeueHeavy", sans-serif !important; }
       .hn div div p {
-        font-family: "HelveticaNeueLight", sans-serif !important; }
+        font-family: "HelveticaNeueHeavy", sans-serif !important; }
+  .hn article {
+    font-family: "HelveticaNeueHeavy", sans-serif !important; }
+    .hn article div {
+      font-family: "HelveticaNeueHeavy", sans-serif !important; }
+      .hn article div h1 {
+        font-family: "HelveticaNeueHeavy", sans-serif !important; }
+      .hn article div p {
+        font-family: "HelveticaNeueHeavy", sans-serif !important; }
 
 .fullscreen img {
   width: 100vw;
@@ -1048,3 +1099,9 @@ footer .flex-end {
 .gg {
   line-height: 60px !important;
   letter-spacing: 2px !important; }
+
+.author-down {
+  margin-bottom: 40px !important; }
+
+.author-up {
+  margin-top: 40px !important; }
