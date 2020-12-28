@@ -291,7 +291,7 @@ body {
       line-height: 30px;
       opacity: 0.5; }
     .container-story .logo:hover {
-      height: 355px; }
+      height: auto; }
     @media (max-width: 910px) {
       .container-story .logo {
         height: 40px; } }
@@ -338,11 +338,6 @@ body {
     @media (max-width: 910px) {
       .container-story .main-navigation ul li i {
         font-size: 8px; } }
-  @media (max-width: 910px) {
-    .container-story {
-      font-size: 14px;
-      margin: 20px 50px;
-      width: calc(100% - 100px); } }
   @media (max-width: 610px) {
     .container-story {
       font-size: 11px; } }
@@ -1105,3 +1100,7 @@ footer .flex-end {
 
 .author-up {
   margin-top: 40px !important; }
+
+.index-title {
+  width: 100vw !important;
+  bottom: 100px; }

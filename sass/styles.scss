@@ -257,7 +257,7 @@ body {
 			}
 		}
 		&:hover{
-			height: 355px;
+			height: auto;
 		}
 		@media (max-width:910px) {
 			height: 40px;
@@ -323,11 +323,6 @@ body {
 				}
 			}
 		}
-	}
-	@media (max-width:910px){
-		font-size: 14px;
-		margin: 20px 50px;
-		width: calc(100% - 100px);
 	}
 	@media (max-width:610px){
 		font-size: 11px;
@@ -1282,4 +1277,8 @@ footer .flex-end{
 }
 .author-up{
 	margin-top: 40px !important;
+}
+.index-title{
+	width: 100vw !important;
+	bottom: 100px;
 }
