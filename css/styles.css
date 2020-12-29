@@ -290,7 +290,7 @@ body {
     .container-story .logo .title {
       width: auto;
       margin-bottom: 15px;
-      line-height: 30px;
+      line-height: 25px;
       opacity: 0.5; }
     .container-story .logo:hover {
       height: 350px; }
@@ -349,7 +349,7 @@ main {
       main .story-header .story-title h1 {
         font-size: 60px;
         font-family: "GilroyBold", sans-serif;
-        line-height: 60px;
+        line-height: 65px;
         margin-bottom: 20px;
         letter-spacing: 2px; }
       main .story-header .story-title p {
@@ -843,7 +843,7 @@ footer {
   margin-left: 2px; }
 
 .fa-circle {
-  font-size: 16px;
+  font-size: 18px;
   vertical-align: middle; }
 
 .slick-dotted.slick-slider {
@@ -986,13 +986,16 @@ footer {
     margin-top: 200px; }
     .about-main .about-header h1 {
       font-size: 60px;
-      padding-bottom: 50px;
+      padding-bottom: 60px;
       line-height: 80px;
       font-family: "GilroyBold", sans-serif; }
       @media (max-width: 1200px) {
         .about-main .about-header h1 {
           font-size: 50px;
           line-height: 60px; } }
+    .about-main .about-header .fa-circle {
+      font-size: 18px;
+      margin-bottom: 40px; }
     .about-main .about-header p {
       font-size: 16px;
       line-height: 26px;
