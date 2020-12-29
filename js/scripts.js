@@ -108,4 +108,3 @@
 		fade: true,
 		cssEase: 'linear'
 	});
-	
