@@ -272,7 +272,7 @@ body {
       cursor: default;
       width: 200px;
       transition: width 0.2s;
-      padding-bottom: 8px;
+      padding-bottom: 5px;
       font-size: 20px;
       line-height: 25px; }
       .container-story .logo h1 a {
@@ -289,7 +289,7 @@ body {
           margin-left: 5px; }
     .container-story .logo .title {
       width: auto;
-      margin-bottom: 15px;
+      margin-bottom: 20px;
       line-height: 25px;
       opacity: 0.5; }
     .container-story .logo:hover {
