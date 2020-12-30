@@ -180,7 +180,7 @@ body {
 .story1 {
   position: absolute;
   left: 0;
-  background: url("../img/story1.jpg");
+  background: url("../videos/short-cover1.mp4");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed; }
@@ -261,7 +261,7 @@ body {
   font-family: "GilroyBold", sans-serif;
   color: black;
   background-color: transparent;
-  transition: background-color 0.5s; }
+  transition: background-color 0.2s; }
   .container-story .logo {
     height: 60px;
     overflow: hidden;
@@ -919,19 +919,14 @@ footer {
       .zero .story-header .story-content br {
         margin-bottom: 20px; }
 
-.video-player {
-  width: 100%;
-  height: 800px;
+.first-video {
   background: url("../img/story1.jpg");
   background-size: cover;
   background-position: center center;
-  position: relative; }
-  .video-player h1 {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    color: white;
-    top: 50%;
-    left: 50%; }
+  background-attachment: fixed;
+  width: calc(100% - 260px);
+  padding: 50px 130px;
+  padding-top: 150px; }
 
 .zero .story5-padding .story-title {
   margin-bottom: 250px; }
@@ -1093,3 +1088,9 @@ footer .flex-end {
 .index-title {
   width: 100vw !important;
   bottom: 100px; }
+
+.plyr__video-wrapper {
+  background: rgba(0, 0, 0, 0); }
+
+.plyr--video .plyr__controls {
+  background: rgba(0, 0, 0, 0); }
