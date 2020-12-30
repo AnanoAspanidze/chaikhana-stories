@@ -923,10 +923,12 @@ footer {
   background: url("../img/story1.jpg");
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  width: calc(100% - 260px);
-  padding: 50px 130px;
-  padding-top: 150px; }
+  background-attachment: fixed; }
+  .first-video iframe {
+    width: calc(100% - 260px);
+    height: 613px;
+    margin: 50px 130px;
+    margin-top: 150px; }
 
 .zero .story5-padding .story-title {
   margin-bottom: 250px; }
@@ -1088,9 +1090,3 @@ footer .flex-end {
 .index-title {
   width: 100vw !important;
   bottom: 100px; }
-
-.plyr__video-wrapper {
-  background: rgba(0, 0, 0, 0); }
-
-.plyr--video .plyr__controls {
-  background: rgba(0, 0, 0, 0); }

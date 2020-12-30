@@ -1053,9 +1053,13 @@ footer{
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
-	width: calc(100% - 260px);
-	padding: 50px 130px;
-	padding-top: 150px;
+	
+	iframe{
+		width: calc(100% - 260px);
+		height: 613px;
+		margin: 50px 130px;
+		margin-top: 150px;
+	}
 }
 .zero .story5-padding{
 	.story-title{
@@ -1260,10 +1264,4 @@ footer .flex-end{
 .index-title{
 	width: 100vw !important;
 	bottom: 100px;
-}
-.plyr__video-wrapper{
-	background: rgba($color: #000000, $alpha: 0);
-}
-.plyr--video .plyr__controls{
-	background: rgba($color: #000000, $alpha: 0);
 }
