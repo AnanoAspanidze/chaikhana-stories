@@ -401,19 +401,17 @@ main {
         font-size: 0;
         z-index: 1;
         background-color: none; }
-      main .first-story .vertical .slider1 .slick-list {
-        overflow: visible; }
-        main .first-story .vertical .slider1 .slick-list .slick-track .slick-slide {
-          height: 10%;
-          object-fit: cover;
-          outline: none; }
-          main .first-story .vertical .slider1 .slick-list .slick-track .slick-slide img {
-            width: 100%;
-            height: 350px;
-            object-fit: cover; }
-            @media (max-width: 1500px) {
-              main .first-story .vertical .slider1 .slick-list .slick-track .slick-slide img {
-                height: 250px; } }
+      main .first-story .vertical .slider1 .slick-list .slick-track .slick-slide {
+        height: 10%;
+        object-fit: cover;
+        outline: none; }
+        main .first-story .vertical .slider1 .slick-list .slick-track .slick-slide img {
+          width: 100%;
+          height: 350px;
+          object-fit: cover; }
+          @media (max-width: 1500px) {
+            main .first-story .vertical .slider1 .slick-list .slick-track .slick-slide img {
+              height: 250px; } }
   main .second-story {
     display: flex;
     flex-direction: column;
@@ -444,19 +442,17 @@ main {
         transform: translateY(-50%);
         right: 3%;
         width: 29%; }
-        main .second-story .big .slider-with-info .second-slider .slick-list {
-          overflow: visible; }
-          main .second-story .big .slider-with-info .second-slider .slick-list .slick-track .slick-slide {
-            height: 10%;
+        main .second-story .big .slider-with-info .second-slider .slick-list .slick-track .slick-slide {
+          height: 10%;
+          object-fit: cover;
+          outline: none; }
+          main .second-story .big .slider-with-info .second-slider .slick-list .slick-track .slick-slide img {
+            width: 100%;
+            height: 450px;
             object-fit: cover;
-            outline: none; }
-            main .second-story .big .slider-with-info .second-slider .slick-list .slick-track .slick-slide img {
-              width: 100%;
-              height: 450px;
-              object-fit: cover;
-              background-position: center; }
-            main .second-story .big .slider-with-info .second-slider .slick-list .slick-track .slick-slide p {
-              color: white; }
+            background-position: center; }
+          main .second-story .big .slider-with-info .second-slider .slick-list .slick-track .slick-slide p {
+            color: white; }
         main .second-story .big .slider-with-info .second-slider .slick-dots {
           margin-bottom: 120px; }
         main .second-story .big .slider-with-info .slider2-info {
