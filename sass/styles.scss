@@ -372,13 +372,12 @@ main{
 		justify-content: space-between;
 
 		article{
-			height: 100%;
 			width: 49%;
 			position: relative;
 
 			.story-text{
 				width: 100%;
-				height: 49%;
+				height: 200px;
 				color: #6D6D6D;
 				font-size: 12px;
 				font-family: $GB;
@@ -575,6 +574,20 @@ main{
 			width: 60%;
 
 			.third-slider{
+				.slick-list{
+					.slick-track{
+						.slick-slide{
+							height: 10%;
+							object-fit: cover;
+							outline: none;
+							img{
+								width: 100%;
+								height: 500px;
+								object-fit: cover;
+							}
+						}
+					}
+				}
 			}
 			.slider3-info{
 				margin-top: 10px;
@@ -780,6 +793,7 @@ footer{
 .slider-info{
 	margin-top: 5px;
 	font-size: 14px;
+	line-height: 24px;
 	font-family: $GM;
 	@media (max-width:1840px) {
 		font-size: 13px;
@@ -806,7 +820,7 @@ footer{
 }
 .right-photo .slider-info{
 	font-size: 14px;
-	line-height: 14px;
+	line-height: 24px;
 	font-family: $GM;
 	@media (max-width:1840px) {
 		font-size: 13px;
@@ -1331,11 +1345,38 @@ footer .flex-end{
 .apearing-text-4{
 	display: none;
 }
-@media (max-width:1600px){
+.apearing-ka-1{
+	display: none;
+}
+.apearing-ka-2{
+	display: none;
+}
+.apearing-ka-3{
+	display: none;
+}
+.apearing-ka-4{
+	display: none;
+}
+@media (max-width:1910px){
+	.dissapearing-ka-1{
+		display: none;
+	}
+	.apearing-ka-1{
+		display: inline;
+	}
+	
+}
+@media (max-width:1620px){
 	.dissapearing-text-1{
 		display: none;
 	}
+	.dissapearing-ka-2{
+		display: none;
+	}
 	.apearing-text-1{
+		display: inline;
+	}
+	.apearing-ka-2{
 		display: inline;
 	}
 	
@@ -1344,7 +1385,13 @@ footer .flex-end{
 	.dissapearing-text-2{
 		display: none;
 	}
+	.dissapearing-ka-3{
+		display: none;
+	}
 	.apearing-text-2{
+		display: inline;
+	}
+	.apearing-ka-3{
 		display: inline;
 	}
 	
@@ -1358,18 +1405,41 @@ footer .flex-end{
 	}
 	
 }
-@media (max-width:1220px){
+@media (max-width:1260px){
 	.dissapearing-text-4{
+		display: none;
+	}
+	.dissapearing-ka-4{
 		display: none;
 	}
 	.apearing-text-4{
 		display: inline;
 	}
-	
+	.apearing-ka-4{
+		display: inline;
+	}
 }
 .slick-prev{
 	transform: translate(0, -35px);
 }
 .slick-next{
 	transform: translate(0, -35px);
+}
+.ka{
+	.slider1{
+		.slick-dots{
+			margin-bottom: 90px;
+		}
+	}
+	.second-slider{
+		.slick-dots{
+			margin-bottom: 160px !important;
+		}
+	}
+	.slick-prev{
+		top: 45%;
+	}
+	.slick-next{
+		top: 45%;
+	}
 }
