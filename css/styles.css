@@ -471,15 +471,13 @@ main {
               line-height: 28px; } }
           @media (max-width: 1485px) {
             main .second-story .big .slider-with-info .slider2-info {
-              font-size: 12px;
+              font-size: 11px;
               line-height: 20px; } }
           @media (max-width: 1330px) {
             main .second-story .big .slider-with-info .slider2-info {
-              font-size: 12px;
               line-height: 16px; } }
           @media (max-width: 1050px) {
             main .second-story .big .slider-with-info .slider2-info {
-              font-size: 11px;
               line-height: 12px; } }
       main .second-story .big button {
         margin: 0 35px;
@@ -500,15 +498,13 @@ main {
         line-height: 28px; } }
     @media (max-width: 1485px) {
       main .second-section-info {
-        font-size: 12px;
+        font-size: 11px;
         line-height: 20px; } }
     @media (max-width: 1330px) {
       main .second-section-info {
-        font-size: 12px;
         line-height: 16px; } }
     @media (max-width: 1050px) {
       main .second-section-info {
-        font-size: 11px;
         line-height: 12px; } }
   main .third-story {
     display: flex;
@@ -554,7 +550,7 @@ main {
             line-height: 28px; } }
         @media (max-width: 1485px) {
           main .third-story .right-slider3 .slider3-info {
-            font-size: 12px;
+            font-size: 11px;
             line-height: 20px; } }
         @media (max-width: 1330px) {
           main .third-story .right-slider3 .slider3-info {
@@ -595,15 +591,13 @@ main {
             line-height: 28px; } }
         @media (max-width: 1485px) {
           main .fourth-story article p {
-            font-size: 12px;
+            font-size: 11px;
             line-height: 20px; } }
         @media (max-width: 1330px) {
           main .fourth-story article p {
-            font-size: 12px;
             line-height: 16px; } }
         @media (max-width: 1050px) {
           main .fourth-story article p {
-            font-size: 11px;
             line-height: 12px; } }
   main .fifth-story {
     margin-top: 50px;
@@ -642,18 +636,13 @@ main {
             line-height: 28px; } }
         @media (max-width: 1485px) {
           main .fifth-story .img p {
-            font-size: 12px;
+            font-size: 11px;
             line-height: 20px; } }
         @media (max-width: 1330px) {
           main .fifth-story .img p {
-            font-size: 12px;
             line-height: 16px; } }
-        @media (max-width: 1125px) {
-          main .fifth-story .img p {
-            font-size: 11px; } }
         @media (max-width: 1050px) {
           main .fifth-story .img p {
-            font-size: 11px;
             line-height: 12px; } }
 
 footer {
