@@ -179,11 +179,12 @@ body {
 
 .story1 {
   position: absolute;
-  left: 0;
-  background: url("../videos/short-cover1.mp4");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed; }
+  left: 0; }
+  .story1 video {
+    width: 85vw;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover; }
 
 .story2 {
   background: url("../img/story2.jpg");
@@ -247,6 +248,10 @@ body {
     opacity: 1; }
   .active .fa-circle {
     color: white; }
+
+.two-pixel {
+  display: none;
+  height: 3px; }
 
 .container-story {
   display: flex;
@@ -378,9 +383,12 @@ main {
         font-size: 12px;
         font-family: "GilroyBold", sans-serif;
         line-height: 22px; }
-        @media (max-width: 1125px) {
+        @media (min-width: 1760px) {
           main .first-story article .story-text {
-            font-size: 12px; } }
+            font-size: 16px; } }
+        @media (min-width: 1880px) {
+          main .first-story article .story-text {
+            line-height: 26px; } }
       main .first-story article .right-photo img {
         width: 100%; }
     main .first-story .vertical {
@@ -393,6 +401,19 @@ main {
         font-size: 0;
         z-index: 1;
         background-color: none; }
+      main .first-story .vertical .slider1 .slick-list {
+        overflow: visible; }
+        main .first-story .vertical .slider1 .slick-list .slick-track .slick-slide {
+          height: 10%;
+          object-fit: cover;
+          outline: none; }
+          main .first-story .vertical .slider1 .slick-list .slick-track .slick-slide img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover; }
+            @media (max-width: 1500px) {
+              main .first-story .vertical .slider1 .slick-list .slick-track .slick-slide img {
+                height: 250px; } }
   main .second-story {
     display: flex;
     flex-direction: column;
@@ -405,9 +426,12 @@ main {
         font-size: 12px;
         font-family: "GilroyBold", sans-serif;
         line-height: 22px; }
-        @media (max-width: 1125px) {
+        @media (min-width: 1760px) {
           main .second-story .little .second-section-title {
-            font-size: 12px; } }
+            font-size: 16px; } }
+        @media (min-width: 1880px) {
+          main .second-story .little .second-section-title {
+            line-height: 26px; } }
     main .second-story .big {
       position: relative; }
       main .second-story .big .cover {
@@ -420,9 +444,21 @@ main {
         transform: translateY(-50%);
         right: 3%;
         width: 29%; }
-        main .second-story .big .slider-with-info .second-slider {
-          height: auto;
-          width: 100%; }
+        main .second-story .big .slider-with-info .second-slider .slick-list {
+          overflow: visible; }
+          main .second-story .big .slider-with-info .second-slider .slick-list .slick-track .slick-slide {
+            height: 10%;
+            object-fit: cover;
+            outline: none; }
+            main .second-story .big .slider-with-info .second-slider .slick-list .slick-track .slick-slide img {
+              width: 100%;
+              height: 450px;
+              object-fit: cover;
+              background-position: center; }
+            main .second-story .big .slider-with-info .second-slider .slick-list .slick-track .slick-slide p {
+              color: white; }
+        main .second-story .big .slider-with-info .second-slider .slick-dots {
+          margin-bottom: 120px; }
         main .second-story .big .slider-with-info .slider2-info {
           margin-top: 5px;
           color: white;
@@ -491,9 +527,12 @@ main {
         font-size: 12px;
         font-family: "GilroyBold", sans-serif;
         line-height: 22px; }
-        @media (max-width: 1125px) {
+        @media (min-width: 1760px) {
           main .third-story .left-slider3 p {
-            font-size: 12px; } }
+            font-size: 16px; } }
+        @media (min-width: 1880px) {
+          main .third-story .left-slider3 p {
+            line-height: 26px; } }
     main .third-story .right-slider3 {
       width: 60%; }
       main .third-story .right-slider3 .slider3-info {
@@ -574,9 +613,12 @@ main {
       font-size: 12px;
       font-family: "GilroyBold", sans-serif;
       line-height: 22px; }
-      @media (max-width: 1125px) {
+      @media (min-width: 1760px) {
         main .fifth-story .text {
-          font-size: 12px; } }
+          font-size: 16px; } }
+      @media (min-width: 1880px) {
+        main .fifth-story .text {
+          line-height: 26px; } }
     main .fifth-story .img {
       width: 60%; }
       main .fifth-story .img img {
@@ -646,7 +688,7 @@ footer {
     border-color: grey; }
 
 .slick-dots {
-  margin-bottom: 35px; }
+  margin-bottom: 70px; }
 
 .slick-dots li button::before {
   color: transparent;
@@ -662,8 +704,7 @@ footer {
   color: white; }
 
 .slider-info {
-  position: absolute;
-  bottom: -45px;
+  margin-top: 5px;
   font-size: 14px;
   font-family: "GilroyMedium", sans-serif; }
   @media (max-width: 1840px) {
@@ -1090,3 +1131,45 @@ footer .flex-end {
 .index-title {
   width: 100vw !important;
   bottom: 100px; }
+
+.apearing-text-1 {
+  display: none; }
+
+.apearing-text-2 {
+  display: none; }
+
+.apearing-text-3 {
+  display: none; }
+
+.apearing-text-4 {
+  display: none; }
+
+@media (max-width: 1600px) {
+  .dissapearing-text-1 {
+    display: none; }
+  .apearing-text-1 {
+    display: inline; } }
+
+@media (max-width: 1400px) {
+  .dissapearing-text-2 {
+    display: none; }
+  .apearing-text-2 {
+    display: inline; } }
+
+@media (max-width: 1320px) {
+  .dissapearing-text-3 {
+    display: none; }
+  .apearing-text-3 {
+    display: inline; } }
+
+@media (max-width: 1220px) {
+  .dissapearing-text-4 {
+    display: none; }
+  .apearing-text-4 {
+    display: inline; } }
+
+.slick-prev {
+  transform: translate(0, -35px); }
+
+.slick-next {
+  transform: translate(0, -35px); }
