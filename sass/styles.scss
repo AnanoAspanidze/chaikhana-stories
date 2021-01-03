@@ -232,7 +232,7 @@ body {
 		width: auto;
         h1{
 			cursor: default;
-			width: 200px;
+			width: 350px;
 			transition: width 0.2s;
 			padding-bottom: 5px;
 			font-size: 20px;
@@ -258,13 +258,12 @@ body {
 			width: auto;
 			margin-bottom: 20px;
 			line-height: 25px;
-			opacity: 0.5;
 			@media (max-width:830px){
 
 			}
 		}
 		&:hover{
-			height: 350px;
+			height: 320px;
 		}
 		@media (max-width:910px) {
 			height: 40px;
@@ -909,9 +908,7 @@ footer{
 			}
 		}
 		.title{
-			a{
-				opacity: 0.7;
-			}
+			
 		}
 	}
 }
@@ -949,6 +946,9 @@ footer{
 			line-height: 22px;
 			br{
 				margin-bottom: 50px;
+			}
+			b{
+				color: black;
 			}
 		}article{
 			.article-image{
@@ -1021,7 +1021,6 @@ footer{
 	.logo{
 		color: white;
 		.title{
-			opacity: 1;
 		}
 		h1{
 			color: white;
@@ -1038,7 +1037,7 @@ footer{
 }
 .dark-lang{
 	background-color: rgba($color: #000000, $alpha: 0.7);
-	height: 100vh;
+	height: 150vh;
 
 
 	.main-navigation{
@@ -1058,6 +1057,13 @@ footer{
 	z-index: 12;
 }
 //story 5
+.fourth-story-cover-photo{
+	img{
+		width: 100%;
+		height: 800px;
+		object-fit: cover;
+	}
+}
 .fourth-story-cover{
 	width: 100%;
 	.fourth-story-slider{
@@ -1066,11 +1072,17 @@ footer{
 		button{
 			margin: 0 50px;
 		}
+		.slick-dots{
+			margin-bottom: 100px;
+		}
 		.slider-photo{
 			width: 100%;
-			height: 800px;
+			height: 600px;
 			object-fit: cover;
 
+		}
+		.slick-slide{
+			outline: none;
 		}
 	}
 	p{
@@ -1137,7 +1149,7 @@ footer{
 .fifth-info{
 	font-family: $GM;
 	font-size: 12px;
-	color: #6D6D6D;
+	color: #919191;
 	margin-top: 10px;
 	line-height: 16px;
 }
@@ -1277,6 +1289,12 @@ footer .flex-end{
 		div{
 			font-family: $HN !important;
 			h1{
+				font-family: $HN !important;
+			}
+			h2{
+				font-family: $HN !important;
+			}
+			h3{
 				font-family: $HN !important;
 			}
 			p{

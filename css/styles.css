@@ -275,7 +275,7 @@ body {
     width: auto; }
     .container-story .logo h1 {
       cursor: default;
-      width: 200px;
+      width: 350px;
       transition: width 0.2s;
       padding-bottom: 5px;
       font-size: 20px;
@@ -295,10 +295,9 @@ body {
     .container-story .logo .title {
       width: auto;
       margin-bottom: 20px;
-      line-height: 25px;
-      opacity: 0.5; }
+      line-height: 25px; }
     .container-story .logo:hover {
-      height: 350px; }
+      height: 320px; }
     @media (max-width: 910px) {
       .container-story .logo {
         height: 40px; } }
@@ -802,8 +801,6 @@ footer {
       color: white; }
   .white .logo h1 a {
     color: white; }
-  .white .logo .title a {
-    opacity: 0.7; }
 
 .portrait1 {
   margin-top: 70px;
@@ -836,6 +833,8 @@ footer {
       line-height: 22px; }
       .portrait1 .portrait-text p br {
         margin-bottom: 50px; }
+      .portrait1 .portrait-text p b {
+        color: black; }
     .portrait1 .portrait-text article .article-image img {
       width: 100%; }
     .portrait1 .portrait-text article .article-image p {
@@ -892,8 +891,6 @@ footer {
   z-index: 12; }
   .dark .logo {
     color: white; }
-    .dark .logo .title {
-      opacity: 1; }
     .dark .logo h1 {
       color: white;
       width: auto; }
@@ -905,7 +902,7 @@ footer {
 
 .dark-lang {
   background-color: rgba(0, 0, 0, 0.7);
-  height: 100vh;
+  height: 150vh;
   z-index: 12; }
   .dark-lang .main-navigation .lang-switch {
     color: white; }
@@ -917,6 +914,11 @@ footer {
     .dark-lang {
       padding: 20px 50px; } }
 
+.fourth-story-cover-photo img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover; }
+
 .fourth-story-cover {
   width: 100%; }
   .fourth-story-cover .fourth-story-slider {
@@ -924,10 +926,14 @@ footer {
     overflow: hidden; }
     .fourth-story-cover .fourth-story-slider button {
       margin: 0 50px; }
+    .fourth-story-cover .fourth-story-slider .slick-dots {
+      margin-bottom: 100px; }
     .fourth-story-cover .fourth-story-slider .slider-photo {
       width: 100%;
-      height: 800px;
+      height: 600px;
       object-fit: cover; }
+    .fourth-story-cover .fourth-story-slider .slick-slide {
+      outline: none; }
   .fourth-story-cover p {
     margin-top: 10px;
     font-size: 12px;
@@ -977,7 +983,7 @@ footer {
 .fifth-info {
   font-family: "GilroyMedium", sans-serif;
   font-size: 12px;
-  color: #6D6D6D;
+  color: #919191;
   margin-top: 10px;
   line-height: 16px; }
 
@@ -1090,6 +1096,10 @@ footer .flex-end {
     .hn div div {
       font-family: "HelveticaNeueHeavy", sans-serif !important; }
       .hn div div h1 {
+        font-family: "HelveticaNeueHeavy", sans-serif !important; }
+      .hn div div h2 {
+        font-family: "HelveticaNeueHeavy", sans-serif !important; }
+      .hn div div h3 {
         font-family: "HelveticaNeueHeavy", sans-serif !important; }
       .hn div div p {
         font-family: "HelveticaNeueHeavy", sans-serif !important; }
