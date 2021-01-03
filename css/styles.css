@@ -1243,3 +1243,21 @@ footer .flex-end {
 
 .ka .slick-next {
   top: 45%; }
+
+.fullscreen-main {
+  position: relative;
+  overflow: hidden; }
+  .fullscreen-main .fullscreen-text {
+    position: absolute;
+    text-align: center;
+    bottom: 10%;
+    color: white;
+    width: calc(100% - 260px);
+    margin: 0 130px;
+    font-family: "GilroyBold", sans-serif;
+    z-index: 1231; }
+    .fullscreen-main .fullscreen-text h1 {
+      font-size: 50px; }
+    .fullscreen-main .fullscreen-text h2 {
+      font-size: 14px;
+      margin-top: 10px; }
