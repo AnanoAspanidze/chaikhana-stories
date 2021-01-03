@@ -78,6 +78,9 @@
 	$(".logo").hover(function () {
 		$(".container-story").toggleClass("dark");
 		});
+	$(".about-nav").hover(function () {
+		$(".container-story").toggleClass("dark-about");
+		});
 	$(".lang-switch").hover(function () {
 		$(".container-story").toggleClass("dark-lang");
 		});	

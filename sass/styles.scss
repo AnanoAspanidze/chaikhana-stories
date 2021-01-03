@@ -243,7 +243,20 @@ body {
 				color:black;
                 &:hover{
                     opacity: 1;
-                }
+				}
+				.fa-circle{
+					font-size: 0px;
+					margin-left: 0px;
+					transition: 0.2s;
+					position: static;
+					transform: translateY(-20%);
+				}
+				&:hover{
+					.fa-circle{
+						font-size: 10px;
+						margin-left: 5px;
+					}
+				}
 			}
 			.active-a{
 				opacity: 1;
@@ -256,10 +269,17 @@ body {
 		}
 		.title{
 			width: auto;
+			opacity: 0.5;
 			margin-bottom: 20px;
 			line-height: 25px;
+			transition: 0.5s;
 			@media (max-width:830px){
-
+			}
+			a{
+				opacity: 1 !important;
+			}
+			&:hover{
+				opacity: 1;
 			}
 		}
 		&:hover{
@@ -1034,6 +1054,24 @@ footer{
 		padding: 20px 50px;
 	}
 	z-index: 12;
+}
+.dark-about{
+	background-color: rgba($color: #000000, $alpha: 0.7);
+	height: 150vh;
+
+	.main-navigation{
+		li{
+			.about-nav{
+				color: white;
+			}
+		}
+	}
+	@media (max-width:910px){
+		padding: 20px 50px;
+	}
+	z-index: 12;
+	
+
 }
 .dark-lang{
 	background-color: rgba($color: #000000, $alpha: 0.7);

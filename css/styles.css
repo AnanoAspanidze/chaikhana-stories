@@ -286,6 +286,15 @@ body {
         color: black; }
         .container-story .logo h1 a:hover {
           opacity: 1; }
+        .container-story .logo h1 a .fa-circle {
+          font-size: 0px;
+          margin-left: 0px;
+          transition: 0.2s;
+          position: static;
+          transform: translateY(-20%); }
+        .container-story .logo h1 a:hover .fa-circle {
+          font-size: 10px;
+          margin-left: 5px; }
       .container-story .logo h1 .active-a {
         opacity: 1;
         cursor: pointer; }
@@ -294,8 +303,14 @@ body {
           margin-left: 5px; }
     .container-story .logo .title {
       width: auto;
+      opacity: 0.5;
       margin-bottom: 20px;
-      line-height: 25px; }
+      line-height: 25px;
+      transition: 0.5s; }
+      .container-story .logo .title a {
+        opacity: 1 !important; }
+      .container-story .logo .title:hover {
+        opacity: 1; }
     .container-story .logo:hover {
       height: 320px; }
     @media (max-width: 910px) {
@@ -898,6 +913,16 @@ footer {
         color: white; }
   @media (max-width: 910px) {
     .dark {
+      padding: 20px 50px; } }
+
+.dark-about {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 150vh;
+  z-index: 12; }
+  .dark-about .main-navigation li .about-nav {
+    color: white; }
+  @media (max-width: 910px) {
+    .dark-about {
       padding: 20px 50px; } }
 
 .dark-lang {
