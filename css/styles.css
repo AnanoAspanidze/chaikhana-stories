@@ -116,7 +116,7 @@ body {
   font-size: 60px;
   width: 85vw;
   text-align: center;
-  bottom: 140px; }
+  bottom: 150px; }
   .flex-title .header {
     opacity: 0;
     -webkit-transition: all 700ms ease;
@@ -124,10 +124,13 @@ body {
     -ms-transition: all 700ms ease;
     -o-transition: all 700ms ease;
     transition: all 700ms ease; }
-  @media (max-width: 1399px) {
+  @media (max-width: 1499px) {
     .flex-title {
-      font-size: 50px;
-      bottom: 130px; } }
+      font-size: 50px; } }
+  @media (max-width: 1300px) {
+    .flex-title {
+      font-size: 40px;
+      line-height: 40px; } }
 
 .flex-about {
   color: #f1f1f1;
@@ -136,7 +139,7 @@ body {
   font-family: "GilroyBold", sans-serif;
   font-size: 14px;
   transform: translateY(100%);
-  bottom: 130px;
+  bottom: 140px;
   opacity: 0;
   line-height: 23px;
   text-align: center;

@@ -43,7 +43,7 @@ body {
 	font-size: 60px;
 	width: 85vw;
 	text-align: center;
-	bottom: 140px;
+	bottom: 150px;
 
 	.header{
 		opacity: 0;
@@ -53,10 +53,13 @@ body {
 	-o-transition: all 700ms ease;
 	transition: all 700ms ease;
 	}
-	@media (max-width:1399px) {
+	@media (max-width:1499px) {
 			font-size: 50px;
-			bottom: 130px;
 	}
+	@media (max-width:1300px) {
+		font-size: 40px;
+		line-height: 40px;
+}
 }
 .flex-about {
 	color: #f1f1f1;
@@ -65,7 +68,7 @@ body {
 	font-family: $GB;
 	font-size: 14px;
 	transform: translateY(100%);
-	bottom:130px;
+	bottom:140px;
 	opacity: 0;
 	line-height: 23px;
 	p{
