@@ -386,7 +386,7 @@ main {
   main section a, main section p, main section h1 {
     color: #919191; }
   main .first-story {
-    margin: 100px 0;
+    margin: 100px 0 50px 0;
     display: flex;
     justify-content: space-between; }
     main .first-story article {
@@ -954,8 +954,6 @@ footer {
     overflow: hidden; }
     .fourth-story-cover .fourth-story-slider button {
       margin: 0 50px; }
-    .fourth-story-cover .fourth-story-slider .slick-dots {
-      margin-bottom: 100px; }
     .fourth-story-cover .fourth-story-slider .slider-photo {
       width: 100%;
       height: 600px;
@@ -973,8 +971,7 @@ footer {
   overflow-x: hidden;
   object-fit: cover; }
   .zero .story-header {
-    margin: 50px 130px;
-    margin-bottom: 250px; }
+    margin: 50px 130px; }
     .zero .story-header .circle {
       padding-top: 60px; }
     .zero .story-header .story-content {
@@ -986,6 +983,8 @@ footer {
       color: #6D6D6D; }
       .zero .story-header .story-content br {
         margin-bottom: 20px; }
+  .zero .more-padding {
+    margin-bottom: 100px; }
 
 .first-video {
   background: url("../img/story1.jpg");
@@ -1019,7 +1018,7 @@ footer {
   width: 60%; }
 
 .to-rus {
-  margin: 300px 0 50px 0;
+  margin: 150px 0 50px 0;
   font-size: 18px; }
 
 .russian .portrait-text {
@@ -1264,3 +1263,8 @@ footer .flex-end {
     .fullscreen-main .fullscreen-text h2 {
       font-size: 14px;
       margin-top: 10px; }
+
+.index-body {
+  overflow: hidden; }
+  .index-body .main-navigation .lang-switch {
+    opacity: 1; }
