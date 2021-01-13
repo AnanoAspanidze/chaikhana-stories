@@ -362,6 +362,9 @@ body {
     .container-story {
       font-size: 11px; } }
 
+.index-header {
+  justify-content: flex-end; }
+
 main {
   padding: 0 130px; }
   main .story-header {
@@ -1256,13 +1259,15 @@ footer .flex-end {
     color: white;
     width: calc(100% - 260px);
     margin: 0 130px;
-    font-family: "GilroyBold", sans-serif;
-    z-index: 1231; }
+    font-family: "GilroyBold", sans-serif; }
     .fullscreen-main .fullscreen-text h1 {
       font-size: 50px; }
     .fullscreen-main .fullscreen-text h2 {
       font-size: 14px;
-      margin-top: 10px; }
+      margin: 10px 10%; }
+    @media (max-width: 1410px) {
+      .fullscreen-main .fullscreen-text h1 {
+        font-size: 40px; } }
 
 .index-body {
   overflow: hidden; }
