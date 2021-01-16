@@ -792,7 +792,7 @@ footer{
 	}
 }
 .slick-dots{
-	margin-bottom: 40px;
+	margin-bottom: 90px;
 }
 .slick-dots li button::before{
 	color: transparent;
@@ -870,7 +870,7 @@ footer{
 	
 	.header-title{
 		margin-left: 130px;
-		margin-top: -40px;
+		margin-top: 60px;
 		margin-bottom: 60px;
 		h1{
 			font-size:60px;
@@ -887,6 +887,13 @@ footer{
 			line-height: 23px;
 			font-family: $GB;
 			color: #171717;
+		}
+		.story3-circle{
+			img{
+				width: 16px;
+			height: auto;
+			}
+			margin-bottom: 25px;
 		}
 	}
 	.cover-top{
@@ -1128,6 +1135,14 @@ footer{
 		.slick-slide{
 			outline: none;
 		}
+		.slick-dots{
+			margin-bottom: 40px;
+		}
+	}
+	.low-margin{
+		.slick-dots{
+			margin-bottom: 90px;
+		}
 	}
 	p{
 			margin-top: 10px;
@@ -1136,6 +1151,7 @@ footer{
 			font-family: $GM;
 	}
 }
+
 .zero{
 	padding:0;
 	overflow-x: hidden;
@@ -1191,19 +1207,38 @@ footer{
 }
 .zero .story5-padding{
 	.story-title{
-		margin-bottom: 200px;
+		margin-bottom: 150px;
 	}
 }
 .story-fifth{
 	padding: 0;
 	margin-top: 100px;
 	margin-bottom: 40px;
+	display: block;
 	.portrait-text{
+		width: auto;
+		.line-width{
+			width: 20%;
+		}
+		.second-line-width{
+			margin-left: calc(50% + 30px);
+		}
 		h1{
 			font-size: 14px;
-
+		}
+		p{
+			width: auto;
 		}
 	}
+	.first-article-image{
+		float: right;
+		padding: 0 0 30px 20px;
+	}
+	.second-article-image{
+		float: left;
+		padding: 0 30px 20px 0;
+	}
+
 }
 .fifth-info{
 	font-family: $GM;
