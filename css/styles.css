@@ -1280,10 +1280,12 @@ footer .flex-end {
     display: inline; } }
 
 .slick-prev {
-  transform: translate(0, -35px); }
+  transform: translate(0, -35px);
+  height: auto; }
 
 .slick-next {
-  transform: translate(0, -35px); }
+  transform: translate(0, -35px);
+  height: auto; }
 
 .ka .slider1 .slick-dots {
   margin-bottom: 90px; }
